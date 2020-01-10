@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.modules.bootapplication.modules.user.dao.UserInfoDao">
+
+	<sql id="userInfoColumns">
+		a.id AS "id",
+		a.head_img AS "headImg",
+		a.name AS "name",
+		a.real_name AS "realName",
+		a.phone AS "phone",
+		a.wechat_id AS "wechatId",
+		a.province AS "province",
+		a.city AS "city",
+		a.area AS "area",
+		a.address AS "address",
+		a.is_new AS "isNew",
+		a.create_date AS "createDate",
+		a.is_address AS "isAddress",
+		a.count as "count",
+		a.count2 as "count2",
+		a.is_member as "isMember",
+		a.member_date as "memberDate"
+	</sql>
+
+	<sql id="userInfoJoins">
+	</sql>
+
+	<select id="get" resultType="UserInfo">
+		SELECT
+			<include refid="userInfoColumns"/>
+		FROM user_info a
+		<include refid="userInfoJoins"/>
+		WHERE a.id = #{id}
+	</select>
+
+	<select id="findList" resultType="UserInfo">
+		SELECT
+			<include refid="userInfoColumns"/>
+		FROM user_info a
+		<include refid="userInfoJoins"/>
+		<where>
+
+			<if test="name != null and name != ''">
+				AND a.name LIKE
+					<if test="dbName == 'oracle'">'%'||#{name}||'%'</if>
+					<if test="dbName == 'mssql'">'%'+#{name}+'%'</if>
+					<if test="dbName == 'mysql'">concat('%',#{name},'%')</if>
+			</if>
+		</where>
+		<choose>
+			<when test="page !=null and page.orderBy != null and page.orderBy != ''">
+				ORDER BY ${page.orderBy}
+			</when>
+			<otherwise>
+			</otherwise>
+		</choose>
+	</select>
+
+	<select id="findAllList" resultType="UserInfo">
+		SELECT
+			<include refid="userInfoColumns"/>
+		FROM user_info a
+		<include refid="userInfoJoins"/>
+		<where>
+
+		</where>
+		<choose>
+			<when test="page !=null and page.orderBy != null and page.orderBy != ''">
+				ORDER BY ${page.orderBy}
+			</when>
+			<otherwise>
+			</otherwise>
+		</choose>
+	</select>
+
+	<insert id="insert" useGeneratedKeys="true" keyProperty="id" keyColumn="id">
+		INSERT INTO user_info(
+			head_img,
+			name,
+			phone,
+			wechat_id,
+			province,
+			city,
+			area,
+			address,
+			is_new,
+			create_date,
+			is_address
+		) VALUES (
+			#{headImg},
+			#{name},
+			#{phone},
+			#{wechatId},
+			#{province},
+			#{city},
+			#{area},
+			#{address},
+			1,
+			#{createDate},
+			0
+		)
+	</insert>
+
+	<update id="update">
+		UPDATE user_info
+		<set>
+			<if test="headImg != null and headImg != ''">
+				head_img = #{headImg},
+			</if>
+			<if test="name != null and name != ''">
+				name = #{name},
+			</if>
+			<if test="phone != null and phone != ''">
+				phone = #{phone},
+			</if>
+			<if test="wechatId != null and wechatId != ''">
+				wechat_id = #{wechatId},
+			</if>
+			<if test="province != null and province != ''">
+				province = #{province},
+			</if>
+			<if test="city != null and city != ''">
+				city = #{city},
+			</if>
+			<if test="area != null and area != ''">
+				area = #{area},
+			</if>
+			<if test="address != null and address != ''">
+				address = #{address},
+			</if>
+			<if test="isNew != null and isNew != ''">
+				is_new = #{isNew},
+			</if>
+			<if test="createDate != null and createDate != ''">
+				create_date = #{createDate},
+			</if>
+			<if test="realName != null and realName != ''">
+				real_name = #{realName},
+			</if>
+			<if test="isAddress != null">
+				is_address = #{isAddress},
+			</if>
+			<if test="count != null">
+				count = #{count},
+			</if>
+			<if test="count2 != null">
+				count2 = #{count2},
+			</if>
+		</set>
+		WHERE id = #{id}
+	</update>
+
+	<update id="delete">
+		DELETE FROM user_info
+		WHERE id = #{id}
+	</update>
+	<update id="setUserCount">
+		update user_info
+		set count=1,count2=1
+		where id =#{id}
+	</update>
+
+	<select id="getByOpenId" resultType="UserInfo">
+		SELECT
+		<include refid="userInfoColumns"/>
+		FROM user_info a
+		<include refid="userInfoJoins"/>
+		WHERE a.wechat_id = #{wechatId}
+	</select>
+
+	<select id="getCountByOpenId" resultType="int">
+		SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = #{wechatId}
+	</select>
+    <select id="getCountById" resultType="com.chunqiusoft.modules.user.entity.UserInfo">
+		select a.count,a.count2
+		from user_info a
+		where a.id=#{userId}
+	</select>
+	<select id="getBusinessByUserId" resultType="java.lang.Integer">
+		select count(id)
+		from business
+		where wechat_id=#{wechatId}
+	</select>
+	<select id="getIsBusiness" resultType="java.lang.Integer">
+		select is_business as  "isBusiness"
+		from user_info
+		where id=#{userId}
+	</select>
+	<select id="getAllId" resultType="java.lang.Integer">
+		select id
+		from user_info
+	</select>
+
+</mapper>

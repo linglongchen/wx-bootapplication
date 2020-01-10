@@ -1,0 +1,57 @@
+server:
+  port: 8008
+  tomcat:
+    uri-encoding: utf-8
+spring:
+  datasource:
+    name: druidDataSource
+    url: jdbc:mysql://localhost:3306/gift?allowMultiQueries=true&characterEncoding=utf-8&autoReconnect=true&useSSL=false
+    username: root
+    password: 123456
+    # 使用druid数据源
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    #初始化数量大小，最小，最大
+    initialSize: 5
+    #最小活跃数
+    minIdle: 5
+    #最大活跃数
+    maxActive: 20
+    # 配置获取连接等待超时的时间
+    maxWait: 6000
+    # 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒
+    timeBetweenEvictionRunsMillis: 60000
+    # 配置一个连接在池中最小生存的时间，单位是毫秒
+    minEvictableIdleTimeMillis: 300000
+    # 校验SQL，Oracle配置 spring.datasource.validationQuery=SELECT 1 FROM DUAL，如果不配validationQuery项，则下面三项配置无用
+    validationQuery: select 'x'
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    # 打开PSCache，并且指定每个连接上PSCache的大小
+    poolPreparedStatements: true
+    maxPoolPreparedStatementPerConnectionSize : 20
+    # 配置监控统计拦截的filters，去掉后监控界面sql无法统计，'wall'用于防火墙
+    filters: stat, wall
+    #通过connectionProperties属性来打开mergeSql功能；慢SQL记录
+    connectionProperties : druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    password: 123456
+    timeout: 2000
+    jedis:
+      pool:
+        max-active: 8
+        max-idle: 8
+        min-idle: 0
+        max-wait: -1ms
+
+audience:
+  clientId: 071bVwq02GvGxT06Gsp02SoPq02bVwqm
+  base64Secret: VDk4ZjSiY2Q0TjIxZDM3g9FhZGU0ZTgzQjYyM2I0KjP=
+  name: restapiuser
+  expiresSecond: 120
+
+
+adminPath: /admin/
