@@ -11,6 +11,7 @@ import com.modules.bootapplication.common.oauth.utils.JwtHelper;
 import com.modules.bootapplication.common.utils.StringUtils;
 import com.modules.bootapplication.common.web.BaseController;
 import com.modules.bootapplication.modules.paramVo.Account;
+import com.modules.bootapplication.modules.paramVo.PhoneVo;
 import com.modules.bootapplication.modules.user.entity.UserInfo;
 import com.modules.bootapplication.modules.user.service.UserInfoService;
 import com.modules.bootapplication.modules.utils.RedisUtils;
@@ -19,15 +20,19 @@ import com.modules.bootapplication.modules.weixin.utils.WeChatUtil;
 import io.jsonwebtoken.Claims;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
+import org.bouncycastle.jce.provider.BouncyCastleProvider;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import org.weixin4j.WeixinException;
 
+import javax.crypto.Cipher;
+import javax.crypto.spec.IvParameterSpec;
+import javax.crypto.spec.SecretKeySpec;
 import javax.servlet.http.HttpServletRequest;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.HashMap;
-import java.util.Map;
+import java.io.IOException;
+import java.security.AlgorithmParameters;
+import java.security.Security;
+import java.util.*;
 
 /**
  * 登录注册模块Controller
@@ -329,6 +334,60 @@ public class LoginController extends BaseController {
             return new Result(ResultStatusCode.INVALID_TOKEN.getCode(), ResultStatusCode.INVALID_TOKEN.getMsg(), null);
         }catch(Exception e){
             return new Result(ResultStatusCode.SYSTEM_ERR.getCode(), ResultStatusCode.SYSTEM_ERR.getMsg(), null);
+        }
+    }
+
+
+
+    //解析电话号码
+    public JSONObject getPhoneNumber(String session_key, String encryptedData, String iv) throws IOException {
+        System.out.println(session_key);
+        byte[] dataByte = org.bouncycastle.util.encoders.Base64.decode(encryptedData);
+        // 加密秘钥
+        byte[] keyByte = org.bouncycastle.util.encoders.Base64.decode(session_key);
+        // 偏移量
+        byte[] ivByte = org.bouncycastle.util.encoders.Base64.decode(iv);
+        try {
+            // 如果密钥不足16位，那么就补足.  这个if 中的内容很重要
+            int base = 16;
+            if (keyByte.length % base != 0) {
+                int groups = keyByte.length / base + (keyByte.length % base != 0 ? 1 : 0);
+                byte[] temp = new byte[groups * base];
+                Arrays.fill(temp, (byte) 0);
+                System.arraycopy(keyByte, 0, temp, 0, keyByte.length);
+                keyByte = temp;
+            }
+            // 初始化
+            Security.addProvider(new BouncyCastleProvider());
+            Cipher cipher = Cipher.getInstance("AES/CBC/PKCS7Padding","BC");
+            SecretKeySpec spec = new SecretKeySpec(keyByte, "AES");
+            AlgorithmParameters parameters = AlgorithmParameters.getInstance("AES");
+            parameters.init(new IvParameterSpec(ivByte));
+            cipher.init(Cipher.DECRYPT_MODE, spec, parameters);// 初始化
+            byte[] resultByte = cipher.doFinal(dataByte);
+            if (null != resultByte && resultByte.length > 0) {
+                String result = new String(resultByte, "UTF-8");
+                return JSONObject.parseObject(result);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
+
+
+    @PostMapping(value = "getPhoneByWeChat")
+    @ApiOperation("授权手机号")
+    public Result getPhoneByWeChat(@RequestBody PhoneVo phoneVo){
+        try{
+            JSONObject obj= getPhoneNumber(phoneVo.getSessionKey(),phoneVo.getEncryptedData(),phoneVo.getIv());//解密电话号码
+//            String obj=WxMiniPhoneAnalysis.getWxMiniPhone(sessionKey,iv,encryptedData);
+//            System.out.println(phone+"用户手机号为");
+            return new Result(ResultStatusCode.PHONE_SUCCESS,obj);
+        }catch (Exception e){
+            e.printStackTrace();
+            return new Result(ResultStatusCode.SYSTEM_ERR);
         }
     }
 

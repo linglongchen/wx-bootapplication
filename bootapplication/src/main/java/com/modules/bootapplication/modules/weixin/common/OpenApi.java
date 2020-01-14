@@ -28,11 +28,11 @@ public abstract class OpenApi {
     public static AccessToken token;
 
     public static String grantType = "authorization_code";
-    public static String appId = "wx57c4db340e37e4f1";					//微信公众号appid
-    public static String secret = "9d66b212145517358e21a5782eb875b2";	//微信公众号密钥
-    public static String mchId = "1514729401";	                        //微信商户号
-    public static String tradeType = "JSAPI";	                        //微信支付交易类型
-    public static String key = "liwuge18221592972qq1204702917ggg";     //微信商户端密匙
+    public static String appId = "";					//微信公众号appid
+    public static String secret = "";	//微信公众号密钥
+    public static String mchId = "";	                        //微信商户号
+    public static String tradeType = "";	                        //微信支付交易类型
+    public static String key = "";     //微信商户端密匙
 
     /**
      * @Description: 调用api并返回查询结果

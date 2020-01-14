@@ -30,7 +30,9 @@ public enum ResultStatusCode {
     MONEY_HIGH(50003,"拼团价格已超过剩余拼团价格"),
     MONEY_NOT_TRUE(50004,"拼团价格需与剩余价格相同"),
     GROUP_HAVE_SUCESS(50005,"拼团已成功"),
+    PHONE_SUCCESS(50004,"解密成功"),
     GROUP_HAVE_FAIL(50006,"拼团已失败");
+
 
     private int code;
     private String msg;
