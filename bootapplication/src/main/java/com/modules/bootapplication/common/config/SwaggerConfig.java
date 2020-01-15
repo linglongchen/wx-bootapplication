@@ -32,7 +32,7 @@ public class SwaggerConfig {
     }
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder().title("微信小程序接口文档")
-                .contact(new Contact("rongrong", "", "emai@qq.com"))
+                .contact(new Contact("chenMo", "", "emai@qq.com"))
                 .description("微信小程序接口文档")
                 .termsOfServiceUrl("NO terms of service")
                 .license("The Apache License, Version 2.0")

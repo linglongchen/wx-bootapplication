@@ -1,6 +1,7 @@
 package com.modules.bootapplication.modules.api;
 
 
+import com.modules.bootapplication.common.annotation.IgnoreSecurity;
 import com.modules.bootapplication.common.config.Global;
 import com.modules.bootapplication.common.oauth.Result;
 import com.modules.bootapplication.common.oauth.ResultStatusCode;
@@ -43,6 +44,7 @@ public class UploadController extends BaseController {
       */
     @PostMapping(value = "uploadImages")
     @ApiOperation("上传图片接口")
+    @IgnoreSecurity
     public Result uploadImg(HttpServletRequest request) throws IOException {
         String source = "/uploadimages/" + Global.getConfig("productEnName");
         String date = DateUtils.getDate("yyyyMMdd");

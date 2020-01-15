@@ -4,6 +4,7 @@
 package com.modules.bootapplication.modules.api;
 
 import com.alibaba.fastjson.JSONObject;
+import com.modules.bootapplication.common.annotation.IgnoreSecurity;
 import com.modules.bootapplication.common.oauth.Audience;
 import com.modules.bootapplication.common.oauth.Result;
 import com.modules.bootapplication.common.oauth.ResultStatusCode;
@@ -156,6 +157,7 @@ public class LoginController extends BaseController {
      */
     @PostMapping(value = "login")
     @ApiOperation("登陆/注册")
+    @IgnoreSecurity
     public Result login(@RequestBody Account account) throws WeixinException {
         try{
 //            if(account.getClientId() == null || !account.getClientId().equals(audience.getClientId())){
@@ -271,6 +273,7 @@ public class LoginController extends BaseController {
      */
     @PostMapping(value = "checkToken")
     @ApiOperation("用于检测token是否还有效，如果无效则可以通过getToken方法获取新的token")
+    @IgnoreSecurity
     public Result checkToken(){
         return new Result(ResultStatusCode.OK.getCode(), ResultStatusCode.OK.getMsg(), null);
     }
@@ -283,6 +286,7 @@ public class LoginController extends BaseController {
      */
     @PostMapping(value = "getToken")
     @ApiOperation("通过refreshToken获取新的access_token，同时也刷新refreshToken的有效期")
+    @IgnoreSecurity
     public Result getToken(@RequestBody Account account){
         String refreshToken = account.getRefreshToken();
         try{
@@ -379,6 +383,7 @@ public class LoginController extends BaseController {
 
     @PostMapping(value = "getPhoneByWeChat")
     @ApiOperation("授权手机号")
+    @IgnoreSecurity
     public Result getPhoneByWeChat(@RequestBody PhoneVo phoneVo){
         try{
             JSONObject obj= getPhoneNumber(phoneVo.getSessionKey(),phoneVo.getEncryptedData(),phoneVo.getIv());//解密电话号码
