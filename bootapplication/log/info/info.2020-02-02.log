@@ -1,0 +1,33 @@
+11:36:24.928 logback-com.modules [main] INFO  c.m.bootapplication.BootApplication - Starting BootApplication on WIN-RUUSSH1405G with PID 5960 (F:\idea\wx-system-project\bootapplication\target\classes started by Administrator in F:\idea\wx-system-project\bootapplication)
+11:36:24.941 logback-com.modules [main] INFO  c.m.bootapplication.BootApplication - No active profile set, falling back to default profiles: default
+11:36:33.923 logback-com.modules [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+11:36:33.923 logback-com.modules [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:36:33.923 logback-com.modules [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+11:36:34.413 logback-com.modules [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:36:35.401 logback-com.modules [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+11:36:36.681 logback-com.modules [main] INFO  c.m.b.common.utils.PropertiesLoader - Could not load properties from path:jeesite.properties, class path resource [jeesite.properties] cannot be opened because it does not exist
+11:36:38.041 logback-com.modules [cluster-ClusterId{value='5e3643c3592085760252f83d', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 3 common frames omitted
+11:36:39.913 logback-com.modules [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+11:36:41.112 logback-com.modules [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+11:36:41.222 logback-com.modules [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+11:36:41.332 logback-com.modules [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+11:36:41.862 logback-com.modules [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+11:36:41.932 logback-com.modules [main] INFO  c.m.bootapplication.BootApplication - Started BootApplication in 19.141 seconds (JVM running for 25.262)
