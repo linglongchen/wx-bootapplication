@@ -1,9 +1,14 @@
 package com.modules.bootapplication.common.oauth;
 
+import lombok.Data;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
 
+/**
+ * @author v_vllchen
+ */
 @Configuration
+@Data
 public class Audience {
 	@Value("${audience.clientId}")
 	private String clientId;
@@ -18,28 +23,4 @@ public class Audience {
     private int expiresSecond;
 
 
-    public String getClientId() {
-        return clientId;
-    }
-    public void setClientId(String clientId) {
-        this.clientId = clientId;
-    }
-    public String getBase64Secret() {
-        return base64Secret;
-    }
-    public void setBase64Secret(String base64Secret) {
-        this.base64Secret = base64Secret;
-    }
-    public String getName() {
-        return name;
-    }
-    public void setName(String name) {
-        this.name = name;
-    }
-    public int getExpiresSecond() {
-        return expiresSecond;
-    }
-    public void setExpiresSecond(int expiresSecond) {
-        this.expiresSecond = expiresSecond;
-    }
 }

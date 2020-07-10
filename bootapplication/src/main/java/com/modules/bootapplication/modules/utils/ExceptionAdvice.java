@@ -2,7 +2,7 @@ package com.modules.bootapplication.modules.utils;
 
 import com.modules.bootapplication.common.oauth.Result;
 import com.modules.bootapplication.common.oauth.ResultStatusCode;
-import com.modules.bootapplication.common.web.BaseController;
+import com.modules.bootapplication.common.base.BaseController;
 import com.modules.bootapplication.modules.exception.TokenErrorException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.converter.HttpMessageNotReadableException;

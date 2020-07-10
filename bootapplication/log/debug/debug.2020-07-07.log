@@ -1,0 +1,938 @@
+11:40:06.768 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==>  Preparing: INSERT INTO user_info( image, name, phone, wechat_id, create_time, ) VALUES ( ?, ?, ?, ?, ? ) 
+11:40:06.843 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==> Parameters: (String), (String), null, o5LWV5NMCEL7X_5ovPr95b6eccpE(String), 2020-07-07 11:40:06.746(Timestamp)
+11:41:12.700 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==>  Preparing: INSERT INTO user_info( image, name, phone, wechat_id, create_time, ) VALUES ( ?, ?, ?, ?, ? ) 
+11:41:12.733 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==> Parameters: (String), (String), null, o5LWV5NMCEL7X_5ovPr95b6eccpE(String), 2020-07-07 11:41:12.679(Timestamp)
+11:42:20.621 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==>  Preparing: INSERT INTO user_info( image, name, phone, wechat_id, create_time, ) VALUES ( ?, ?, ?, ?, ? ) 
+11:42:20.688 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==> Parameters: (String), (String), null, o5LWV5NMCEL7X_5ovPr95b6eccpE(String), 2020-07-07 11:42:20.598(Timestamp)
+11:43:37.802 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==>  Preparing: INSERT INTO user_info( image, name, phone, wechat_id, create_time, ) VALUES ( ?, ?, ?, ?, ? ) 
+11:43:37.869 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==> Parameters: (String), (String), null, o5LWV5NMCEL7X_5ovPr95b6eccpE(String), 2020-07-07 11:43:37.781(Timestamp)
+11:45:14.942 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==>  Preparing: INSERT INTO user_info( image, name, phone, wechat_id, create_time, ) VALUES ( ?, ?, ?, ?, ? ) 
+11:45:15.016 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==> Parameters: (String), (String), null, o5LWV5NMCEL7X_5ovPr95b6eccpE(String), 2020-07-07 11:45:14.919(Timestamp)
+11:46:36.698 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==>  Preparing: INSERT INTO user_info( image, name, phone, wechat_id, create_time, ) VALUES ( ?, ?, ?, ?, ? ) 
+11:46:36.773 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==> Parameters: (String), (String), null, o5LWV5NMCEL7X_5ovPr95b6eccpE(String), 2020-07-07 11:46:36.672(Timestamp)
+11:48:30.653 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==>  Preparing: INSERT INTO user_info( image, name, phone, wechat_id, create_time, ) VALUES ( ?, ?, ?, ?, ? ) 
+11:48:30.705 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==> Parameters: (String), (String), null, o5LWV5NMCEL7X_5ovPr95b6eccpE(String), 2020-07-07 11:48:30.628(Timestamp)
+11:50:23.873 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==>  Preparing: INSERT INTO user_info( image, name, phone, wechat_id, create_time ) VALUES ( ?, ?, ?, ?, ? ) 
+11:50:23.903 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==> Parameters: (String), (String), null, o5LWV5NMCEL7X_5ovPr95b6eccpE(String), 2020-07-07 11:50:23.853(Timestamp)
+11:51:18.771 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==>  Preparing: INSERT INTO user_info( head_img, name, phone, wechat_id, create_time ) VALUES ( ?, ?, ?, ?, ? ) 
+11:51:18.805 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==> Parameters: (String), (String), null, o5LWV5NMCEL7X_5ovPr95b6eccpE(String), 2020-07-07 11:51:18.745(Timestamp)
+11:51:44.467 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==>  Preparing: INSERT INTO user_info( head_img, name, phone, wechat_id, create_time ) VALUES ( ?, ?, ?, ?, ? ) 
+11:51:44.468 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==> Parameters: (String), (String), null, o5LWV5NMCEL7X_5ovPr95b6eccpE(String), 2020-07-07 11:51:44.467(Timestamp)
+11:51:44.474 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - <==    Updates: 1
+11:53:35.975 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==>  Preparing: INSERT INTO user_info( head_img, name, phone, wechat_id, create_time ) VALUES ( ?, ?, ?, ?, ? ) 
+11:53:35.976 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==> Parameters: (String), (String), null, o5LWV5NMCEL7X_5ovPr95b6eccpE(String), 2020-07-07 11:53:35.975(Timestamp)
+11:53:35.978 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - <==    Updates: 1
+11:55:11.972 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==>  Preparing: INSERT INTO user_info( head_img, name, phone, wechat_id, create_time ) VALUES ( ?, ?, ?, ?, ? ) 
+11:55:11.973 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==> Parameters: (String), (String), null, o5LWV5NMCEL7X_5ovPr95b6eccpE(String), 2020-07-07 11:55:11.972(Timestamp)
+11:55:11.975 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - <==    Updates: 1
+11:56:07.353 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==>  Preparing: INSERT INTO user_info( head_img, name, phone, wechat_id, create_time ) VALUES ( ?, ?, ?, ?, ? ) 
+11:56:07.354 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==> Parameters: (String), (String), null, o5LWV5NMCEL7X_5ovPr95b6eccpE(String), 2020-07-07 11:56:07.352(Timestamp)
+11:56:07.357 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - <==    Updates: 1
+11:57:08.331 logback-com.modules [http-nio-8001-exec-6] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==>  Preparing: INSERT INTO user_info( head_img, name, phone, wechat_id, create_time ) VALUES ( ?, ?, ?, ?, ? ) 
+11:57:08.332 logback-com.modules [http-nio-8001-exec-6] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==> Parameters: (String), (String), null, o5LWV5NMCEL7X_5ovPr95b6eccpE(String), 2020-07-07 11:57:08.331(Timestamp)
+11:57:08.341 logback-com.modules [http-nio-8001-exec-6] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - <==    Updates: 1
+11:57:32.170 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==>  Preparing: INSERT INTO user_info( head_img, name, phone, wechat_id, create_time ) VALUES ( ?, ?, ?, ?, ? ) 
+11:57:32.173 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==> Parameters: (String), (String), null, o5LWV5NMCEL7X_5ovPr95b6eccpE(String), 2020-07-07 11:57:32.169(Timestamp)
+11:57:32.178 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - <==    Updates: 1
+11:58:48.757 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==>  Preparing: INSERT INTO user_info( head_img, name, phone, wechat_id, create_time ) VALUES ( ?, ?, ?, ?, ? ) 
+11:58:48.759 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==> Parameters: (String), (String), null, o5LWV5NMCEL7X_5ovPr95b6eccpE(String), 2020-07-07 11:58:48.757(Timestamp)
+11:58:48.760 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - <==    Updates: 1
+11:59:25.355 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==>  Preparing: INSERT INTO user_info( head_img, name, phone, wechat_id, create_time ) VALUES ( ?, ?, ?, ?, ? ) 
+11:59:25.357 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==> Parameters: (String), (String), null, o5LWV5NMCEL7X_5ovPr95b6eccpE(String), 2020-07-07 11:59:25.355(Timestamp)
+11:59:25.359 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - <==    Updates: 1
+12:00:04.861 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==>  Preparing: INSERT INTO user_info( head_img, name, phone, wechat_id, create_time ) VALUES ( ?, ?, ?, ?, ? ) 
+12:00:04.862 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==> Parameters: (String), (String), null, o5LWV5NMCEL7X_5ovPr95b6eccpE(String), 2020-07-07 12:00:04.861(Timestamp)
+12:00:04.863 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - <==    Updates: 1
+12:01:40.638 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==>  Preparing: INSERT INTO user_info( head_img, name, phone, wechat_id, create_time ) VALUES ( ?, ?, ?, ?, ? ) 
+12:01:40.640 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==> Parameters: (String), (String), null, o5LWV5NMCEL7X_5ovPr95b6eccpE(String), 2020-07-07 12:01:40.638(Timestamp)
+12:01:40.641 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - <==    Updates: 1
+12:01:59.057 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==>  Preparing: INSERT INTO user_info( head_img, name, phone, wechat_id, create_time ) VALUES ( ?, ?, ?, ?, ? ) 
+12:01:59.058 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==> Parameters: (String), (String), null, o5LWV5NMCEL7X_5ovPr95b6eccpE(String), 2020-07-07 12:01:59.057(Timestamp)
+12:01:59.059 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - <==    Updates: 1
+12:02:05.621 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==>  Preparing: INSERT INTO user_info( head_img, name, phone, wechat_id, create_time ) VALUES ( ?, ?, ?, ?, ? ) 
+12:02:05.622 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==> Parameters: (String), (String), null, o5LWV5NMCEL7X_5ovPr95b6eccpE(String), 2020-07-07 12:02:05.621(Timestamp)
+12:02:05.624 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - <==    Updates: 1
+12:02:07.410 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==>  Preparing: INSERT INTO user_info( head_img, name, phone, wechat_id, create_time ) VALUES ( ?, ?, ?, ?, ? ) 
+12:02:07.411 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==> Parameters: (String), (String), null, o5LWV5NMCEL7X_5ovPr95b6eccpE(String), 2020-07-07 12:02:07.41(Timestamp)
+12:02:07.413 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - <==    Updates: 1
+12:02:45.440 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==>  Preparing: INSERT INTO user_info( head_img, name, phone, wechat_id, create_time ) VALUES ( ?, ?, ?, ?, ? ) 
+12:02:45.442 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==> Parameters: (String), (String), null, o5LWV5NMCEL7X_5ovPr95b6eccpE(String), 2020-07-07 12:02:45.439(Timestamp)
+12:02:45.445 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - <==    Updates: 1
+12:03:08.312 logback-com.modules [http-nio-8001-exec-5] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==>  Preparing: INSERT INTO user_info( head_img, name, phone, wechat_id, create_time ) VALUES ( ?, ?, ?, ?, ? ) 
+12:03:08.315 logback-com.modules [http-nio-8001-exec-5] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==> Parameters: (String), (String), null, o5LWV5NMCEL7X_5ovPr95b6eccpE(String), 2020-07-07 12:03:08.31(Timestamp)
+12:03:08.317 logback-com.modules [http-nio-8001-exec-5] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - <==    Updates: 1
+12:04:34.509 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==>  Preparing: INSERT INTO user_info( head_img, name, phone, wechat_id, create_time ) VALUES ( ?, ?, ?, ?, ? ) 
+12:04:34.511 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==> Parameters: (String), (String), null, o5LWV5NMCEL7X_5ovPr95b6eccpE(String), 2020-07-07 12:04:34.509(Timestamp)
+12:04:34.513 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - <==    Updates: 1
+12:05:33.589 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==>  Preparing: INSERT INTO user_info( head_img, name, phone, wechat_id, create_time ) VALUES ( ?, ?, ?, ?, ? ) 
+12:05:33.590 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==> Parameters: (String), (String), null, o5LWV5NMCEL7X_5ovPr95b6eccpE(String), 2020-07-07 12:05:33.589(Timestamp)
+12:05:33.591 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - <==    Updates: 1
+12:08:21.149 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==>  Preparing: INSERT INTO user_info( head_img, name, phone, wechat_id, create_time ) VALUES ( ?, ?, ?, ?, ? ) 
+12:08:21.150 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==> Parameters: (String), (String), null, o5LWV5NMCEL7X_5ovPr95b6eccpE(String), 2020-07-07 12:08:21.149(Timestamp)
+12:08:21.152 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - <==    Updates: 1
+12:09:51.913 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==>  Preparing: INSERT INTO user_info( head_img, name, phone, wechat_id, create_time ) VALUES ( ?, ?, ?, ?, ? ) 
+12:09:51.914 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==> Parameters: (String), (String), null, o5LWV5NMCEL7X_5ovPr95b6eccpE(String), 2020-07-07 12:09:51.913(Timestamp)
+12:09:51.916 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - <==    Updates: 1
+12:10:20.722 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==>  Preparing: INSERT INTO user_info( head_img, name, phone, wechat_id, create_time ) VALUES ( ?, ?, ?, ?, ? ) 
+12:10:20.724 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==> Parameters: (String), (String), null, o5LWV5NMCEL7X_5ovPr95b6eccpE(String), 2020-07-07 12:10:20.722(Timestamp)
+12:10:20.726 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - <==    Updates: 1
+12:11:09.654 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==>  Preparing: INSERT INTO user_info( head_img, name, phone, wechat_id, create_time ) VALUES ( ?, ?, ?, ?, ? ) 
+12:11:09.656 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==> Parameters: (String), (String), null, o5LWV5NMCEL7X_5ovPr95b6eccpE(String), 2020-07-07 12:11:09.654(Timestamp)
+12:11:09.657 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - <==    Updates: 1
+12:24:32.790 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==>  Preparing: INSERT INTO user_info( head_img, name, phone, wechat_id, create_time ) VALUES ( ?, ?, ?, ?, ? ) 
+12:24:32.800 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==> Parameters: (String), (String), null, o5LWV5NMCEL7X_5ovPr95b6eccpE(String), 2020-07-07 12:24:32.783(Timestamp)
+12:24:32.815 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - <==    Updates: 1
+12:24:39.691 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==>  Preparing: INSERT INTO user_info( head_img, name, phone, wechat_id, create_time ) VALUES ( ?, ?, ?, ?, ? ) 
+12:24:39.692 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==> Parameters: https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83erzAQctR8x8ZEyfT7yCTwbpcdheuwsR2oMNdhC7iapicJUEV8kZcf2dwKodhl1l0cPJqMV0xN1w6CEA/132(String), 陈汤姆(String), null, o5LWV5NMCEL7X_5ovPr95b6eccpE(String), 2020-07-07 12:24:39.691(Timestamp)
+12:24:39.694 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - <==    Updates: 1
+12:24:45.159 logback-com.modules [http-nio-8001-exec-6] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==>  Preparing: INSERT INTO user_info( head_img, name, phone, wechat_id, create_time ) VALUES ( ?, ?, ?, ?, ? ) 
+12:24:45.160 logback-com.modules [http-nio-8001-exec-6] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==> Parameters: https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83erzAQctR8x8ZEyfT7yCTwbpcdheuwsR2oMNdhC7iapicJUEV8kZcf2dwKodhl1l0cPJqMV0xN1w6CEA/132(String), 陈汤姆(String), null, o5LWV5NMCEL7X_5ovPr95b6eccpE(String), 2020-07-07 12:24:45.159(Timestamp)
+12:24:45.161 logback-com.modules [http-nio-8001-exec-6] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - <==    Updates: 1
+12:25:44.083 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==>  Preparing: INSERT INTO user_info( head_img, name, phone, wechat_id, create_time ) VALUES ( ?, ?, ?, ?, ? ) 
+12:25:44.086 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==> Parameters: https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83erzAQctR8x8ZEyfT7yCTwbpcdheuwsR2oMNdhC7iapicJUEV8kZcf2dwKodhl1l0cPJqMV0xN1w6CEA/132(String), 陈汤姆(String), null, o5LWV5NMCEL7X_5ovPr95b6eccpE(String), 2020-07-07 12:25:44.083(Timestamp)
+12:25:44.087 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - <==    Updates: 1
+12:41:25.667 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==>  Preparing: INSERT INTO user_info( head_img, name, phone, wechat_id, create_time ) VALUES ( ?, ?, ?, ?, ? ) 
+12:41:25.668 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==> Parameters: (String), (String), null, o5LWV5NMCEL7X_5ovPr95b6eccpE(String), 2020-07-07 12:41:25.666(Timestamp)
+12:41:25.671 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - <==    Updates: 1
+12:41:46.016 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==>  Preparing: INSERT INTO user_info( head_img, name, phone, wechat_id, create_time ) VALUES ( ?, ?, ?, ?, ? ) 
+12:41:46.017 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==> Parameters: (String), (String), null, o5LWV5NMCEL7X_5ovPr95b6eccpE(String), 2020-07-07 12:41:46.016(Timestamp)
+12:41:46.018 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - <==    Updates: 1
+12:41:52.709 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==>  Preparing: INSERT INTO user_info( head_img, name, phone, wechat_id, create_time ) VALUES ( ?, ?, ?, ?, ? ) 
+12:41:52.710 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==> Parameters: https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83erzAQctR8x8ZEyfT7yCTwbpcdheuwsR2oMNdhC7iapicJUEV8kZcf2dwKodhl1l0cPJqMV0xN1w6CEA/132(String), 陈汤姆(String), null, o5LWV5NMCEL7X_5ovPr95b6eccpE(String), 2020-07-07 12:41:52.709(Timestamp)
+12:41:52.711 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - <==    Updates: 1
+12:43:48.029 logback-com.modules [http-nio-8001-exec-5] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==>  Preparing: INSERT INTO user_info( head_img, name, phone, wechat_id, create_time ) VALUES ( ?, ?, ?, ?, ? ) 
+12:43:48.031 logback-com.modules [http-nio-8001-exec-5] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==> Parameters: (String), (String), null, o5LWV5NMCEL7X_5ovPr95b6eccpE(String), 2020-07-07 12:43:48.029(Timestamp)
+12:43:48.032 logback-com.modules [http-nio-8001-exec-5] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - <==    Updates: 1
+12:44:16.911 logback-com.modules [http-nio-8001-exec-6] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==>  Preparing: INSERT INTO user_info( head_img, name, phone, wechat_id, create_time ) VALUES ( ?, ?, ?, ?, ? ) 
+12:44:16.913 logback-com.modules [http-nio-8001-exec-6] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==> Parameters: (String), (String), null, o5LWV5NMCEL7X_5ovPr95b6eccpE(String), 2020-07-07 12:44:16.911(Timestamp)
+12:44:16.915 logback-com.modules [http-nio-8001-exec-6] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - <==    Updates: 1
+12:44:59.700 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==>  Preparing: INSERT INTO user_info( head_img, name, phone, wechat_id, create_time ) VALUES ( ?, ?, ?, ?, ? ) 
+12:44:59.701 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==> Parameters: (String), (String), null, o5LWV5NMCEL7X_5ovPr95b6eccpE(String), 2020-07-07 12:44:59.7(Timestamp)
+12:44:59.703 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - <==    Updates: 1
+12:45:31.205 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==>  Preparing: INSERT INTO user_info( head_img, name, phone, wechat_id, create_time ) VALUES ( ?, ?, ?, ?, ? ) 
+12:45:31.207 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==> Parameters: (String), (String), null, o5LWV5NMCEL7X_5ovPr95b6eccpE(String), 2020-07-07 12:45:31.205(Timestamp)
+12:45:31.208 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - <==    Updates: 1
+12:45:44.065 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==>  Preparing: INSERT INTO user_info( head_img, name, phone, wechat_id, create_time ) VALUES ( ?, ?, ?, ?, ? ) 
+12:45:44.066 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==> Parameters: (String), (String), null, o5LWV5NMCEL7X_5ovPr95b6eccpE(String), 2020-07-07 12:45:44.064(Timestamp)
+12:45:44.067 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - <==    Updates: 1
+12:46:23.454 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==>  Preparing: INSERT INTO user_info( head_img, name, phone, wechat_id, create_time ) VALUES ( ?, ?, ?, ?, ? ) 
+12:46:23.454 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==> Parameters: (String), (String), null, o5LWV5NMCEL7X_5ovPr95b6eccpE(String), 2020-07-07 12:46:23.454(Timestamp)
+12:46:23.456 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - <==    Updates: 1
+12:47:19.803 logback-com.modules [http-nio-8001-exec-6] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==>  Preparing: INSERT INTO user_info( head_img, name, phone, wechat_id, create_time ) VALUES ( ?, ?, ?, ?, ? ) 
+12:47:19.805 logback-com.modules [http-nio-8001-exec-6] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - ==> Parameters: (String), (String), null, o5LWV5NMCEL7X_5ovPr95b6eccpE(String), 2020-07-07 12:47:19.803(Timestamp)
+12:47:19.808 logback-com.modules [http-nio-8001-exec-6] DEBUG c.m.b.m.user.dao.UserInfoDao.insert - <==    Updates: 1
+12:51:14.660 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+12:51:14.700 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+12:51:14.735 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+12:51:14.763 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.real_name AS "realName", a.phone AS "phone", a.wechat_id AS "wechatId", a.province AS "province", a.city AS "city", a.area AS "area", a.address AS "address", a.is_new AS "isNew", a.create_date AS "createDate", a.is_address AS "isAddress", a.count as "count", a.count2 as "count2", a.is_member as "isMember", a.member_date as "memberDate" FROM user_info a WHERE a.wechat_id = ? 
+12:51:14.763 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+12:52:41.879 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+12:52:41.905 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+12:52:41.925 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+12:52:41.928 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_date AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+12:52:41.929 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+12:53:50.551 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+12:53:50.580 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+12:53:50.602 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+12:53:50.605 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+12:53:50.605 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+12:53:50.608 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+13:22:02.701 logback-com.modules [http-nio-8001-exec-5] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+13:22:02.713 logback-com.modules [http-nio-8001-exec-5] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+13:22:02.736 logback-com.modules [http-nio-8001-exec-5] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+13:22:02.760 logback-com.modules [http-nio-8001-exec-5] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+13:22:02.760 logback-com.modules [http-nio-8001-exec-5] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+13:22:02.772 logback-com.modules [http-nio-8001-exec-5] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+14:25:00.788 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+14:25:00.793 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:25:00.821 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+14:25:00.825 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+14:25:00.825 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:25:00.829 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+14:25:04.527 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+14:25:04.528 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:25:04.529 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+14:25:04.530 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+14:25:04.530 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:25:04.536 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+14:25:18.897 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+14:25:18.904 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:25:18.907 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+14:25:18.914 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+14:25:18.915 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:25:18.919 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+14:25:24.435 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+14:25:24.437 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:25:24.439 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+14:25:24.443 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+14:25:24.444 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:25:24.447 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+14:25:58.028 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+14:25:58.029 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:25:58.030 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+14:25:58.031 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+14:25:58.031 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:25:58.032 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+14:26:02.636 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+14:26:02.637 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:26:02.643 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+14:26:02.649 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+14:26:02.654 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:26:02.668 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+14:27:29.064 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+14:27:29.065 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:27:29.066 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+14:27:29.070 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+14:27:29.070 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:27:29.071 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+14:27:33.451 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+14:27:33.454 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:27:33.456 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+14:27:33.457 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+14:27:33.458 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:27:33.458 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+14:28:14.255 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+14:28:14.255 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:28:14.256 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+14:28:14.257 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+14:28:14.258 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:28:14.258 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+14:28:18.399 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+14:28:18.400 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:28:18.401 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+14:28:18.404 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+14:28:18.405 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:28:18.406 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+14:29:07.933 logback-com.modules [http-nio-8001-exec-6] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+14:29:07.933 logback-com.modules [http-nio-8001-exec-6] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:29:07.935 logback-com.modules [http-nio-8001-exec-6] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+14:29:07.937 logback-com.modules [http-nio-8001-exec-6] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+14:29:07.937 logback-com.modules [http-nio-8001-exec-6] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:29:07.938 logback-com.modules [http-nio-8001-exec-6] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+14:29:11.828 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+14:29:11.828 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:29:11.829 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+14:29:11.831 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+14:29:11.831 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:29:11.836 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+14:31:20.955 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+14:31:20.955 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:31:20.958 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+14:31:20.961 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+14:31:20.962 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:31:20.966 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+14:31:25.681 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+14:31:25.681 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:31:25.682 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+14:31:25.685 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+14:31:25.685 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:31:25.693 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+14:31:58.870 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+14:31:58.870 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:31:58.872 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+14:31:58.876 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+14:31:58.880 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:31:58.884 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+14:32:03.368 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+14:32:03.368 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:32:03.369 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+14:32:03.370 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+14:32:03.371 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:32:03.371 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+14:32:27.641 logback-com.modules [http-nio-8001-exec-6] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+14:32:27.641 logback-com.modules [http-nio-8001-exec-6] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:32:27.642 logback-com.modules [http-nio-8001-exec-6] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+14:32:27.645 logback-com.modules [http-nio-8001-exec-6] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+14:32:27.645 logback-com.modules [http-nio-8001-exec-6] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:32:27.646 logback-com.modules [http-nio-8001-exec-6] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+14:32:40.909 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+14:32:40.910 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:32:40.911 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+14:32:40.915 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+14:32:40.916 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:32:40.917 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+14:34:01.468 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+14:34:01.468 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:34:01.470 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+14:34:01.472 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+14:34:01.472 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:34:01.473 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+14:34:08.395 logback-com.modules [http-nio-8001-exec-5] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+14:34:08.396 logback-com.modules [http-nio-8001-exec-5] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:34:08.397 logback-com.modules [http-nio-8001-exec-5] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+14:34:08.399 logback-com.modules [http-nio-8001-exec-5] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+14:34:08.399 logback-com.modules [http-nio-8001-exec-5] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:34:08.400 logback-com.modules [http-nio-8001-exec-5] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+14:34:47.976 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+14:34:47.977 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:34:47.979 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+14:34:57.555 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+14:34:57.563 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:34:57.569 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+14:35:52.848 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+14:35:52.849 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:35:52.852 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+14:35:54.501 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+14:35:54.503 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:35:54.507 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+14:36:30.608 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+14:36:30.626 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:36:30.628 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+14:36:30.630 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+14:36:30.631 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:36:30.635 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+14:36:35.648 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+14:36:35.648 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:36:35.650 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+14:36:35.652 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+14:36:35.653 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:36:35.657 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+14:37:12.892 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+14:37:12.892 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:37:12.893 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+14:37:12.894 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+14:37:12.895 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:37:12.896 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+14:37:19.941 logback-com.modules [http-nio-8001-exec-6] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+14:37:19.942 logback-com.modules [http-nio-8001-exec-6] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:37:19.943 logback-com.modules [http-nio-8001-exec-6] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+14:37:19.944 logback-com.modules [http-nio-8001-exec-6] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+14:37:19.945 logback-com.modules [http-nio-8001-exec-6] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:37:19.946 logback-com.modules [http-nio-8001-exec-6] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+14:38:30.631 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+14:38:30.632 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:38:30.632 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+14:38:30.633 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+14:38:30.634 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:38:30.635 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+14:38:38.889 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+14:38:38.890 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:38:38.890 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+14:38:38.893 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+14:38:38.893 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:38:38.894 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+14:39:23.348 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+14:39:23.349 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:39:23.349 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+14:39:23.351 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+14:39:23.351 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:39:23.352 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+14:39:41.177 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+14:39:41.177 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:39:41.178 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+14:39:41.179 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+14:39:41.180 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:39:41.181 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+14:39:45.421 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+14:39:45.421 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:39:45.422 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+14:39:45.423 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+14:39:45.424 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:39:45.424 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+14:41:15.476 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+14:41:15.477 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:41:15.478 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+14:41:15.480 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+14:41:15.480 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:41:15.481 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+14:41:20.508 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+14:41:20.509 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:41:20.510 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+14:41:20.511 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+14:41:20.511 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:41:20.513 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+14:42:06.606 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+14:42:06.606 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:42:06.607 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+14:42:06.608 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+14:42:06.608 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:42:06.609 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+14:42:12.024 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+14:42:12.025 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:42:12.025 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+14:42:12.026 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+14:42:12.026 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:42:12.027 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+14:42:41.863 logback-com.modules [http-nio-8001-exec-5] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+14:42:41.863 logback-com.modules [http-nio-8001-exec-5] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:42:41.864 logback-com.modules [http-nio-8001-exec-5] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+14:42:41.866 logback-com.modules [http-nio-8001-exec-5] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+14:42:41.867 logback-com.modules [http-nio-8001-exec-5] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:42:41.868 logback-com.modules [http-nio-8001-exec-5] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+14:42:48.888 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+14:42:48.889 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:42:48.892 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+14:42:48.894 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+14:42:48.895 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:42:48.896 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+14:44:34.256 logback-com.modules [http-nio-8001-exec-6] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+14:44:34.256 logback-com.modules [http-nio-8001-exec-6] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:44:34.257 logback-com.modules [http-nio-8001-exec-6] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+14:44:34.258 logback-com.modules [http-nio-8001-exec-6] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+14:44:34.259 logback-com.modules [http-nio-8001-exec-6] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:44:34.261 logback-com.modules [http-nio-8001-exec-6] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+14:44:49.576 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+14:44:49.576 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:44:49.577 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+14:44:49.579 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+14:44:49.579 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:44:49.581 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+14:45:18.028 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+14:45:18.028 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:45:18.028 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+14:45:18.029 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+14:45:18.030 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:45:18.030 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+14:45:30.809 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+14:45:30.809 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:45:30.810 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+14:45:30.811 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+14:45:30.811 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:45:30.812 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+14:45:44.162 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+14:45:44.163 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:45:44.163 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+14:45:44.165 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+14:45:44.165 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:45:44.166 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+14:45:49.017 logback-com.modules [http-nio-8001-exec-6] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+14:45:49.017 logback-com.modules [http-nio-8001-exec-6] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:45:49.018 logback-com.modules [http-nio-8001-exec-6] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+14:45:49.019 logback-com.modules [http-nio-8001-exec-6] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+14:45:49.020 logback-com.modules [http-nio-8001-exec-6] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:45:49.021 logback-com.modules [http-nio-8001-exec-6] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+14:46:09.479 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+14:46:09.480 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:46:09.481 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+14:46:09.482 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+14:46:09.482 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:46:09.483 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+14:46:14.845 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+14:46:14.845 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:46:14.846 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+14:46:14.847 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+14:46:14.848 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:46:14.848 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+14:52:32.127 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+14:52:32.131 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:52:32.140 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+14:52:32.143 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+14:52:32.143 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:52:32.144 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+14:52:38.617 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+14:52:38.618 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:52:38.619 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+14:52:38.621 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+14:52:38.621 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:52:38.623 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+14:53:18.538 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+14:53:18.540 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:53:18.541 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+14:53:18.543 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+14:53:18.543 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:53:18.546 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+14:53:23.380 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+14:53:23.380 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:53:23.380 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+14:53:23.382 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+14:53:23.382 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:53:23.382 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+14:53:55.117 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+14:53:55.117 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:53:55.117 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+14:53:55.119 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+14:53:55.119 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:53:55.120 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+14:54:00.079 logback-com.modules [http-nio-8001-exec-5] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+14:54:00.080 logback-com.modules [http-nio-8001-exec-5] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:54:00.081 logback-com.modules [http-nio-8001-exec-5] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+14:54:00.082 logback-com.modules [http-nio-8001-exec-5] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+14:54:00.082 logback-com.modules [http-nio-8001-exec-5] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:54:00.083 logback-com.modules [http-nio-8001-exec-5] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+14:54:10.177 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+14:54:10.178 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:54:10.179 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+14:54:10.180 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+14:54:10.180 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:54:10.185 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+14:54:16.950 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+14:54:16.951 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:54:16.952 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+14:54:16.954 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+14:54:16.954 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:54:16.955 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+14:54:36.350 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+14:54:36.350 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:54:36.351 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+14:54:36.352 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+14:54:36.353 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:54:36.354 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+14:54:48.540 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+14:54:48.541 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:54:48.542 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+14:54:48.545 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+14:54:48.546 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:54:48.548 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+14:54:59.812 logback-com.modules [http-nio-8001-exec-5] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+14:54:59.812 logback-com.modules [http-nio-8001-exec-5] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:54:59.812 logback-com.modules [http-nio-8001-exec-5] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+14:54:59.813 logback-com.modules [http-nio-8001-exec-5] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+14:54:59.813 logback-com.modules [http-nio-8001-exec-5] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:54:59.814 logback-com.modules [http-nio-8001-exec-5] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+14:55:06.219 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+14:55:06.219 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:55:06.220 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+14:55:06.222 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+14:55:06.222 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:55:06.223 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+14:55:39.254 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+14:55:39.255 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:55:39.257 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+14:55:39.260 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+14:55:39.261 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:55:39.262 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+14:55:44.238 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+14:55:44.238 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:55:44.239 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+14:55:44.240 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+14:55:44.240 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:55:44.241 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+14:55:49.283 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+14:55:49.283 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:55:49.284 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+14:55:49.286 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+14:55:49.286 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:55:49.287 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+14:56:07.113 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+14:56:07.113 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:56:07.114 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+14:56:07.115 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+14:56:07.116 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:56:07.116 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+14:56:12.183 logback-com.modules [http-nio-8001-exec-5] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+14:56:12.183 logback-com.modules [http-nio-8001-exec-5] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:56:12.184 logback-com.modules [http-nio-8001-exec-5] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+14:56:12.186 logback-com.modules [http-nio-8001-exec-5] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+14:56:12.186 logback-com.modules [http-nio-8001-exec-5] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:56:12.187 logback-com.modules [http-nio-8001-exec-5] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+14:56:51.180 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+14:56:51.180 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:56:51.181 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+14:56:51.182 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+14:56:51.182 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:56:51.183 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+14:56:58.797 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+14:56:58.797 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:56:58.798 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+14:56:58.799 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+14:56:58.799 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:56:58.800 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+14:57:09.074 logback-com.modules [http-nio-8001-exec-6] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+14:57:09.074 logback-com.modules [http-nio-8001-exec-6] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:57:09.075 logback-com.modules [http-nio-8001-exec-6] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+14:57:09.076 logback-com.modules [http-nio-8001-exec-6] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+14:57:09.076 logback-com.modules [http-nio-8001-exec-6] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:57:09.077 logback-com.modules [http-nio-8001-exec-6] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+14:57:13.385 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+14:57:13.385 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:57:13.387 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+14:57:13.389 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+14:57:13.389 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:57:13.391 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+14:57:28.736 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+14:57:28.736 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:57:28.737 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+14:57:28.738 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+14:57:28.738 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:57:28.739 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+14:58:01.509 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+14:58:01.509 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:58:01.510 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+14:58:01.511 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+14:58:01.511 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:58:01.512 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+14:59:09.238 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+14:59:09.238 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:59:09.239 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+14:59:09.240 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+14:59:09.240 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+14:59:09.241 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+15:01:06.410 logback-com.modules [http-nio-8001-exec-5] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+15:01:06.410 logback-com.modules [http-nio-8001-exec-5] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+15:01:06.412 logback-com.modules [http-nio-8001-exec-5] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+15:01:06.414 logback-com.modules [http-nio-8001-exec-5] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+15:01:06.415 logback-com.modules [http-nio-8001-exec-5] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+15:01:06.416 logback-com.modules [http-nio-8001-exec-5] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+15:01:43.824 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+15:01:43.825 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+15:01:43.827 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+15:01:43.829 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+15:01:43.830 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+15:01:43.831 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+15:02:31.690 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+15:02:31.691 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+15:02:31.693 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+15:02:31.696 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+15:02:31.696 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+15:02:31.698 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+15:03:18.257 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+15:03:18.258 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+15:03:18.258 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+15:03:18.259 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+15:03:18.260 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+15:03:18.261 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+15:03:24.000 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+15:03:24.000 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+15:03:24.001 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+15:03:24.002 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+15:03:24.002 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+15:03:24.003 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+15:05:02.783 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+15:05:02.783 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+15:05:02.784 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+15:05:02.786 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+15:05:02.786 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+15:05:02.787 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+15:32:11.688 logback-com.modules [http-nio-8001-exec-6] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+15:32:11.694 logback-com.modules [http-nio-8001-exec-6] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+15:32:11.708 logback-com.modules [http-nio-8001-exec-6] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+15:32:11.713 logback-com.modules [http-nio-8001-exec-6] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+15:32:11.713 logback-com.modules [http-nio-8001-exec-6] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+15:32:11.717 logback-com.modules [http-nio-8001-exec-6] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+15:32:17.271 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+15:32:17.271 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+15:32:17.272 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+15:32:17.273 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+15:32:17.274 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+15:32:17.275 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+15:32:34.106 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+15:32:34.107 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+15:32:34.108 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+15:32:34.109 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+15:32:34.110 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+15:32:34.111 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+15:44:54.723 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+15:44:54.756 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+15:44:54.786 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+15:44:54.790 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+15:44:54.791 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+15:44:54.794 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+16:02:29.963 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+16:02:29.999 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+16:02:30.034 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+16:02:30.039 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+16:02:30.040 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+16:02:30.042 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+16:10:53.331 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==>  Preparing: SELECT COUNT(a.id) FROM user_info a WHERE a.wechat_id = ? 
+16:10:53.373 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.u.d.U.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+16:10:53.408 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.u.d.U.getCountByOpenId - <==      Total: 1
+16:10:53.425 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==>  Preparing: SELECT a.id AS "id", a.head_img AS "headImg", a.name AS "name", a.phone AS "phone", a.wechat_id AS "wechatId", a.create_time AS "createDate" FROM user_info a WHERE a.wechat_id = ? 
+16:10:53.426 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+16:10:53.428 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.u.d.UserInfoDao.getByOpenId - <==      Total: 1
+17:21:19.330 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==>  Preparing: 
+17:24:04.262 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==>  Preparing: select count(*) from questionnaire where wechat_id=? 
+17:24:04.322 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+17:25:24.703 logback-com.modules [http-nio-8001-exec-5] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==>  Preparing: select count(*) from user where wechat_id=? 
+17:25:24.750 logback-com.modules [http-nio-8001-exec-5] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+17:25:24.783 logback-com.modules [http-nio-8001-exec-5] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - <==      Total: 1
+17:25:24.800 logback-com.modules [http-nio-8001-exec-5] DEBUG c.m.b.modules.dao.UserDao.insert - ==>  Preparing: INSERT INTO user ( head_img, wechat_id, nick_name, del_flag, is_deleted ) VALUES ( ?, ?, ?, ?, ? ) 
+17:25:24.801 logback-com.modules [http-nio-8001-exec-5] DEBUG c.m.b.modules.dao.UserDao.insert - ==> Parameters: (String), o5LWV5NMCEL7X_5ovPr95b6eccpE(String), (String), false(Boolean), 0(Integer)
+17:26:21.145 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==>  Preparing: select count(*) from user where wechat_id=? 
+17:26:21.145 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+17:26:21.164 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - <==      Total: 1
+17:26:21.165 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.modules.dao.UserDao.insert - ==>  Preparing: INSERT INTO user ( head_img, wechat_id, nick_name, del_flag, is_deleted ) VALUES ( ?, ?, ?, ?, ? ) 
+17:26:21.165 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.modules.dao.UserDao.insert - ==> Parameters: (String), o5LWV5NMCEL7X_5ovPr95b6eccpE(String), (String), false(Boolean), 0(Integer)
+17:27:31.179 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==>  Preparing: select count(*) from user where wechat_id=? 
+17:27:31.221 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+17:27:31.245 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - <==      Total: 1
+17:27:31.275 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.modules.dao.UserDao.insert - ==>  Preparing: INSERT INTO user ( head_img, wechat_id, nick_name, is_deleted ) VALUES ( ?, ?, ?, ? ) 
+17:27:31.275 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.modules.dao.UserDao.insert - ==> Parameters: (String), o5LWV5NMCEL7X_5ovPr95b6eccpE(String), (String), 0(Integer)
+17:27:31.281 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.modules.dao.UserDao.insert - <==    Updates: 1
+17:29:03.336 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==>  Preparing: select count(*) from user where wechat_id=? 
+17:29:03.337 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+17:29:03.338 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - <==      Total: 1
+17:29:03.339 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.dao.UserDao.getByOpenId - ==>  Preparing: select * from user where wechat_id=? 
+17:29:03.339 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.dao.UserDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+17:29:03.342 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.dao.UserDao.getByOpenId - <==      Total: 1
+17:29:36.950 logback-com.modules [http-nio-8001-exec-5] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==>  Preparing: select count(*) from user where wechat_id=? 
+17:29:36.951 logback-com.modules [http-nio-8001-exec-5] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+17:29:36.952 logback-com.modules [http-nio-8001-exec-5] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - <==      Total: 1
+17:29:36.953 logback-com.modules [http-nio-8001-exec-5] DEBUG c.m.b.m.dao.UserDao.getByOpenId - ==>  Preparing: select * from user where wechat_id=? 
+17:29:36.954 logback-com.modules [http-nio-8001-exec-5] DEBUG c.m.b.m.dao.UserDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+17:29:36.963 logback-com.modules [http-nio-8001-exec-5] DEBUG c.m.b.m.dao.UserDao.getByOpenId - <==      Total: 1
+17:30:22.429 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==>  Preparing: select count(*) from user where wechat_id=? 
+17:30:22.430 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+17:30:22.431 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - <==      Total: 1
+17:30:22.432 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.dao.UserDao.getByOpenId - ==>  Preparing: select * from user where wechat_id=? 
+17:30:22.432 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.dao.UserDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+17:30:22.434 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.dao.UserDao.getByOpenId - <==      Total: 1
+17:33:12.218 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==>  Preparing: select count(*) from user where wechat_id=? 
+17:33:12.272 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+17:33:12.303 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - <==      Total: 1
+17:33:12.306 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.dao.UserDao.getByOpenId - ==>  Preparing: select * from user where wechat_id=? 
+17:33:12.306 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.dao.UserDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+17:33:12.309 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.dao.UserDao.getByOpenId - <==      Total: 1
+17:33:20.647 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==>  Preparing: select count(*) from user where wechat_id=? 
+17:33:20.647 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+17:33:20.648 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - <==      Total: 1
+17:33:20.649 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.dao.UserDao.getByOpenId - ==>  Preparing: select * from user where wechat_id=? 
+17:33:20.649 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.dao.UserDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+17:33:20.651 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.dao.UserDao.getByOpenId - <==      Total: 1
+17:34:21.212 logback-com.modules [http-nio-8001-exec-5] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==>  Preparing: select count(*) from user where wechat_id=? 
+17:34:21.212 logback-com.modules [http-nio-8001-exec-5] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+17:34:21.213 logback-com.modules [http-nio-8001-exec-5] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - <==      Total: 1
+17:34:21.240 logback-com.modules [http-nio-8001-exec-5] DEBUG c.m.b.modules.dao.UserDao.insert - ==>  Preparing: INSERT INTO user ( head_img, wechat_id, nick_name, is_deleted ) VALUES ( ?, ?, ?, ? ) 
+17:34:21.241 logback-com.modules [http-nio-8001-exec-5] DEBUG c.m.b.modules.dao.UserDao.insert - ==> Parameters: (String), o5LWV5NMCEL7X_5ovPr95b6eccpE(String), (String), 0(Integer)
+17:34:21.245 logback-com.modules [http-nio-8001-exec-5] DEBUG c.m.b.modules.dao.UserDao.insert - <==    Updates: 1
+17:34:35.778 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==>  Preparing: select count(*) from user where wechat_id=? 
+17:34:35.779 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+17:34:35.781 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - <==      Total: 1
+17:34:35.784 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.dao.UserDao.getByOpenId - ==>  Preparing: select * from user where wechat_id=? 
+17:34:35.785 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.dao.UserDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+17:34:35.789 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.dao.UserDao.getByOpenId - <==      Total: 1
+17:35:29.413 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==>  Preparing: select count(*) from user where wechat_id=? 
+17:35:29.414 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+17:35:29.427 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - <==      Total: 1
+17:35:29.428 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.dao.UserDao.getByOpenId - ==>  Preparing: select * from user where wechat_id=? 
+17:35:29.428 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.dao.UserDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+17:35:29.430 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.dao.UserDao.getByOpenId - <==      Total: 1
+17:36:07.038 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==>  Preparing: select count(*) from user where wechat_id=? 
+17:36:07.039 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+17:36:07.040 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - <==      Total: 1
+17:36:07.041 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.dao.UserDao.getByOpenId - ==>  Preparing: select * from user where wechat_id=? 
+17:36:07.041 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.dao.UserDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+17:36:07.043 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.dao.UserDao.getByOpenId - <==      Total: 1
+17:40:31.581 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==>  Preparing: select count(*) from user where wechat_id=? 
+17:40:31.632 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+17:40:31.661 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - <==      Total: 1
+17:40:31.664 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.dao.UserDao.getByOpenId - ==>  Preparing: select * from user where wechat_id=? 
+17:40:31.665 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.dao.UserDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+17:40:31.668 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.dao.UserDao.getByOpenId - <==      Total: 1
+17:40:31.765 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.modules.dao.UserDao.update - ==>  Preparing: UPDATE user SET wechat_id=?, is_deleted=? WHERE id = ? 
+17:40:31.766 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.modules.dao.UserDao.update - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String), 0(Integer), 2(Long)
+17:40:31.770 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.modules.dao.UserDao.update - <==    Updates: 1
+17:40:53.991 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==>  Preparing: select count(*) from user where wechat_id=? 
+17:40:53.992 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+17:40:53.994 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - <==      Total: 1
+17:40:59.502 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.dao.UserDao.getByOpenId - ==>  Preparing: select * from user where wechat_id=? 
+17:40:59.504 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.dao.UserDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+17:40:59.513 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.dao.UserDao.getByOpenId - <==      Total: 1
+17:41:01.670 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.modules.dao.UserDao.update - ==>  Preparing: UPDATE user SET head_img=?, wechat_id=?, nick_name=?, is_deleted=? WHERE id = ? 
+17:41:01.672 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.modules.dao.UserDao.update - ==> Parameters: https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83erzAQctR8x8ZEyfT7yCTwbpcdheuwsR2oMNdhC7iapicJUEV8kZcf2dwKodhl1l0cPJqMV0xN1w6CEA/132(String), o5LWV5NMCEL7X_5ovPr95b6eccpE(String), 陈汤姆(String), 0(Integer), 2(Long)
+17:41:01.679 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.modules.dao.UserDao.update - <==    Updates: 1
+17:46:59.640 logback-com.modules [http-nio-8001-exec-6] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==>  Preparing: select count(*) from user where wechat_id=? 
+17:46:59.646 logback-com.modules [http-nio-8001-exec-6] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+17:46:59.690 logback-com.modules [http-nio-8001-exec-6] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - <==      Total: 1
+17:46:59.692 logback-com.modules [http-nio-8001-exec-6] DEBUG c.m.b.m.dao.UserDao.getByOpenId - ==>  Preparing: select * from user where wechat_id=? 
+17:46:59.693 logback-com.modules [http-nio-8001-exec-6] DEBUG c.m.b.m.dao.UserDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+17:46:59.709 logback-com.modules [http-nio-8001-exec-6] DEBUG c.m.b.m.dao.UserDao.getByOpenId - <==      Total: 1
+17:46:59.716 logback-com.modules [http-nio-8001-exec-6] DEBUG c.m.b.modules.dao.UserDao.update - ==>  Preparing: UPDATE user SET wechat_id=?, update_time=?, is_deleted=? WHERE id = ? 
+17:46:59.747 logback-com.modules [http-nio-8001-exec-6] DEBUG c.m.b.modules.dao.UserDao.update - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String), 2020-07-08 01:41:01.0(Timestamp), 0(Integer), 2(Long)
+17:46:59.751 logback-com.modules [http-nio-8001-exec-6] DEBUG c.m.b.modules.dao.UserDao.update - <==    Updates: 1
+17:47:21.151 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==>  Preparing: select count(*) from user where wechat_id=? 
+17:47:21.151 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+17:47:21.152 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - <==      Total: 1
+17:47:21.153 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.dao.UserDao.getByOpenId - ==>  Preparing: select * from user where wechat_id=? 
+17:47:21.153 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.dao.UserDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+17:47:21.155 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.dao.UserDao.getByOpenId - <==      Total: 1
+17:47:21.158 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.modules.dao.UserDao.update - ==>  Preparing: UPDATE user SET head_img=?, wechat_id=?, nick_name=?, update_time=?, is_deleted=? WHERE id = ? 
+17:47:21.159 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.modules.dao.UserDao.update - ==> Parameters: https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83erzAQctR8x8ZEyfT7yCTwbpcdheuwsR2oMNdhC7iapicJUEV8kZcf2dwKodhl1l0cPJqMV0xN1w6CEA/132(String), o5LWV5NMCEL7X_5ovPr95b6eccpE(String), 陈汤姆(String), 2020-07-08 01:41:01.0(Timestamp), 0(Integer), 2(Long)
+17:47:21.162 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.modules.dao.UserDao.update - <==    Updates: 1
+17:48:04.740 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==>  Preparing: select count(*) from user where wechat_id=? 
+17:48:04.741 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+17:48:04.742 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - <==      Total: 1
+17:48:04.744 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.dao.UserDao.getByOpenId - ==>  Preparing: select * from user where wechat_id=? 
+17:48:04.744 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.dao.UserDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+17:48:04.746 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.dao.UserDao.getByOpenId - <==      Total: 1
+17:48:04.748 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.modules.dao.UserDao.update - ==>  Preparing: UPDATE user SET wechat_id=?, update_time=?, is_deleted=? WHERE id = ? 
+17:48:04.748 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.modules.dao.UserDao.update - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String), 2020-07-08 01:41:01.0(Timestamp), 0(Integer), 2(Long)
+17:48:04.751 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.modules.dao.UserDao.update - <==    Updates: 1
+17:48:12.301 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==>  Preparing: select count(*) from user where wechat_id=? 
+17:48:12.301 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+17:48:12.302 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - <==      Total: 1
+17:48:12.306 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.dao.UserDao.getByOpenId - ==>  Preparing: select * from user where wechat_id=? 
+17:48:12.307 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.dao.UserDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+17:48:12.309 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.dao.UserDao.getByOpenId - <==      Total: 1
+17:48:12.312 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.modules.dao.UserDao.update - ==>  Preparing: UPDATE user SET head_img=?, wechat_id=?, nick_name=?, update_time=?, is_deleted=? WHERE id = ? 
+17:48:12.312 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.modules.dao.UserDao.update - ==> Parameters: https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83erzAQctR8x8ZEyfT7yCTwbpcdheuwsR2oMNdhC7iapicJUEV8kZcf2dwKodhl1l0cPJqMV0xN1w6CEA/132(String), o5LWV5NMCEL7X_5ovPr95b6eccpE(String), 陈汤姆(String), 2020-07-08 01:41:01.0(Timestamp), 0(Integer), 2(Long)
+17:48:12.316 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.modules.dao.UserDao.update - <==    Updates: 1
+17:48:38.904 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==>  Preparing: select count(*) from user where wechat_id=? 
+17:48:38.905 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+17:48:38.906 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - <==      Total: 1
+17:48:38.906 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.dao.UserDao.getByOpenId - ==>  Preparing: select * from user where wechat_id=? 
+17:48:38.907 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.dao.UserDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+17:48:38.908 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.dao.UserDao.getByOpenId - <==      Total: 1
+17:48:38.910 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.modules.dao.UserDao.update - ==>  Preparing: UPDATE user SET wechat_id=?, update_time=?, is_deleted=? WHERE id = ? 
+17:48:38.911 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.modules.dao.UserDao.update - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String), 2020-07-08 01:41:01.0(Timestamp), 0(Integer), 2(Long)
+17:48:38.914 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.modules.dao.UserDao.update - <==    Updates: 1
+17:48:43.995 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==>  Preparing: select count(*) from user where wechat_id=? 
+17:48:43.995 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+17:48:43.996 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - <==      Total: 1
+17:48:43.999 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.dao.UserDao.getByOpenId - ==>  Preparing: select * from user where wechat_id=? 
+17:48:44.000 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.dao.UserDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+17:48:44.004 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.dao.UserDao.getByOpenId - <==      Total: 1
+17:48:44.007 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.modules.dao.UserDao.update - ==>  Preparing: UPDATE user SET head_img=?, wechat_id=?, nick_name=?, update_time=?, is_deleted=? WHERE id = ? 
+17:48:44.009 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.modules.dao.UserDao.update - ==> Parameters: https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83erzAQctR8x8ZEyfT7yCTwbpcdheuwsR2oMNdhC7iapicJUEV8kZcf2dwKodhl1l0cPJqMV0xN1w6CEA/132(String), o5LWV5NMCEL7X_5ovPr95b6eccpE(String), 陈汤姆(String), 2020-07-08 01:41:01.0(Timestamp), 0(Integer), 2(Long)
+17:48:44.012 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.modules.dao.UserDao.update - <==    Updates: 1
+17:50:05.491 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==>  Preparing: select count(*) from user where wechat_id=? 
+17:50:05.492 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+17:50:05.493 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - <==      Total: 1
+17:50:05.498 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.dao.UserDao.getByOpenId - ==>  Preparing: select * from user where wechat_id=? 
+17:50:05.500 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.dao.UserDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+17:50:05.504 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.dao.UserDao.getByOpenId - <==      Total: 1
+17:50:05.512 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.modules.dao.UserDao.update - ==>  Preparing: UPDATE user SET wechat_id=?, update_time=?, is_deleted=? WHERE id = ? 
+17:50:05.513 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.modules.dao.UserDao.update - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String), 2020-07-08 01:41:01.0(Timestamp), 0(Integer), 2(Long)
+17:50:05.516 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.modules.dao.UserDao.update - <==    Updates: 1
+17:50:11.013 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==>  Preparing: select count(*) from user where wechat_id=? 
+17:50:11.013 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+17:50:11.014 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - <==      Total: 1
+17:50:11.015 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.dao.UserDao.getByOpenId - ==>  Preparing: select * from user where wechat_id=? 
+17:50:11.015 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.dao.UserDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+17:50:11.017 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.dao.UserDao.getByOpenId - <==      Total: 1
+17:50:11.020 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.modules.dao.UserDao.update - ==>  Preparing: UPDATE user SET head_img=?, wechat_id=?, nick_name=?, update_time=?, is_deleted=? WHERE id = ? 
+17:50:11.020 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.modules.dao.UserDao.update - ==> Parameters: https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83erzAQctR8x8ZEyfT7yCTwbpcdheuwsR2oMNdhC7iapicJUEV8kZcf2dwKodhl1l0cPJqMV0xN1w6CEA/132(String), o5LWV5NMCEL7X_5ovPr95b6eccpE(String), 陈汤姆(String), 2020-07-08 01:41:01.0(Timestamp), 0(Integer), 2(Long)
+17:50:11.023 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.modules.dao.UserDao.update - <==    Updates: 1
+17:50:39.159 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==>  Preparing: select count(*) from user where wechat_id=? 
+17:50:39.159 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+17:50:39.161 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - <==      Total: 1
+17:50:39.162 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.dao.UserDao.getByOpenId - ==>  Preparing: select * from user where wechat_id=? 
+17:50:39.162 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.dao.UserDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+17:50:39.165 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.dao.UserDao.getByOpenId - <==      Total: 1
+17:50:39.167 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.modules.dao.UserDao.update - ==>  Preparing: UPDATE user SET wechat_id=?, update_time=?, is_deleted=? WHERE id = ? 
+17:50:39.168 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.modules.dao.UserDao.update - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String), 2020-07-08 01:41:01.0(Timestamp), 0(Integer), 2(Long)
+17:50:39.172 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.modules.dao.UserDao.update - <==    Updates: 1
+17:51:23.619 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==>  Preparing: select count(*) from user where wechat_id=? 
+17:51:23.619 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+17:51:23.621 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - <==      Total: 1
+17:51:23.622 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.dao.UserDao.getByOpenId - ==>  Preparing: select * from user where wechat_id=? 
+17:51:23.622 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.dao.UserDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+17:51:23.624 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.m.dao.UserDao.getByOpenId - <==      Total: 1
+17:51:23.625 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.modules.dao.UserDao.update - ==>  Preparing: UPDATE user SET wechat_id=?, update_time=?, is_deleted=? WHERE id = ? 
+17:51:23.626 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.modules.dao.UserDao.update - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String), 2020-07-08 01:41:01.0(Timestamp), 0(Integer), 2(Long)
+17:51:23.629 logback-com.modules [http-nio-8001-exec-4] DEBUG c.m.b.modules.dao.UserDao.update - <==    Updates: 1
+17:51:29.536 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==>  Preparing: select count(*) from user where wechat_id=? 
+17:51:29.537 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+17:51:29.538 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - <==      Total: 1
+17:51:29.539 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.dao.UserDao.getByOpenId - ==>  Preparing: select * from user where wechat_id=? 
+17:51:29.540 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.dao.UserDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+17:51:29.541 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.dao.UserDao.getByOpenId - <==      Total: 1
+17:51:29.543 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.modules.dao.UserDao.update - ==>  Preparing: UPDATE user SET head_img=?, wechat_id=?, nick_name=?, update_time=?, is_deleted=? WHERE id = ? 
+17:51:29.544 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.modules.dao.UserDao.update - ==> Parameters: https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83erzAQctR8x8ZEyfT7yCTwbpcdheuwsR2oMNdhC7iapicJUEV8kZcf2dwKodhl1l0cPJqMV0xN1w6CEA/132(String), o5LWV5NMCEL7X_5ovPr95b6eccpE(String), 陈汤姆(String), 2020-07-08 01:41:01.0(Timestamp), 0(Integer), 2(Long)
+17:51:29.546 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.modules.dao.UserDao.update - <==    Updates: 1
+17:52:01.678 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==>  Preparing: select count(*) from user where wechat_id=? 
+17:52:01.679 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+17:52:01.680 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - <==      Total: 1
+17:52:01.682 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.dao.UserDao.getByOpenId - ==>  Preparing: select * from user where wechat_id=? 
+17:52:01.683 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.dao.UserDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+17:52:01.685 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.m.dao.UserDao.getByOpenId - <==      Total: 1
+17:52:01.690 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.modules.dao.UserDao.update - ==>  Preparing: UPDATE user SET wechat_id=?, update_time=?, is_deleted=? WHERE id = ? 
+17:52:01.691 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.modules.dao.UserDao.update - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String), 2020-07-08 01:41:01.0(Timestamp), 0(Integer), 2(Long)
+17:52:01.694 logback-com.modules [http-nio-8001-exec-7] DEBUG c.m.b.modules.dao.UserDao.update - <==    Updates: 1
+17:52:21.816 logback-com.modules [http-nio-8001-exec-6] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==>  Preparing: select count(*) from user where wechat_id=? 
+17:52:21.816 logback-com.modules [http-nio-8001-exec-6] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+17:52:21.817 logback-com.modules [http-nio-8001-exec-6] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - <==      Total: 1
+17:52:21.819 logback-com.modules [http-nio-8001-exec-6] DEBUG c.m.b.m.dao.UserDao.getByOpenId - ==>  Preparing: select * from user where wechat_id=? 
+17:52:21.820 logback-com.modules [http-nio-8001-exec-6] DEBUG c.m.b.m.dao.UserDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+17:52:21.821 logback-com.modules [http-nio-8001-exec-6] DEBUG c.m.b.m.dao.UserDao.getByOpenId - <==      Total: 1
+17:52:21.833 logback-com.modules [http-nio-8001-exec-6] DEBUG c.m.b.modules.dao.UserDao.update - ==>  Preparing: UPDATE user SET head_img=?, wechat_id=?, nick_name=?, update_time=?, is_deleted=? WHERE id = ? 
+17:52:21.833 logback-com.modules [http-nio-8001-exec-6] DEBUG c.m.b.modules.dao.UserDao.update - ==> Parameters: https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83erzAQctR8x8ZEyfT7yCTwbpcdheuwsR2oMNdhC7iapicJUEV8kZcf2dwKodhl1l0cPJqMV0xN1w6CEA/132(String), o5LWV5NMCEL7X_5ovPr95b6eccpE(String), 陈汤姆(String), 2020-07-08 01:41:01.0(Timestamp), 0(Integer), 2(Long)
+17:52:21.835 logback-com.modules [http-nio-8001-exec-6] DEBUG c.m.b.modules.dao.UserDao.update - <==    Updates: 1
+17:52:36.003 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==>  Preparing: select count(*) from user where wechat_id=? 
+17:52:36.003 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+17:52:36.004 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - <==      Total: 1
+17:52:36.006 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.dao.UserDao.getByOpenId - ==>  Preparing: select * from user where wechat_id=? 
+17:52:36.007 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.dao.UserDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+17:52:36.014 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.m.dao.UserDao.getByOpenId - <==      Total: 1
+17:52:36.023 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.modules.dao.UserDao.update - ==>  Preparing: UPDATE user SET wechat_id=?, update_time=?, is_deleted=? WHERE id = ? 
+17:52:36.024 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.modules.dao.UserDao.update - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String), 2020-07-08 01:41:01.0(Timestamp), 0(Integer), 2(Long)
+17:52:36.026 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.b.modules.dao.UserDao.update - <==    Updates: 1
+17:52:48.408 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==>  Preparing: select count(*) from user where wechat_id=? 
+17:52:48.408 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+17:52:48.409 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - <==      Total: 1
+17:52:48.410 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.dao.UserDao.getByOpenId - ==>  Preparing: select * from user where wechat_id=? 
+17:52:48.411 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.dao.UserDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+17:52:48.412 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.dao.UserDao.getByOpenId - <==      Total: 1
+17:52:48.415 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.modules.dao.UserDao.update - ==>  Preparing: UPDATE user SET head_img=?, wechat_id=?, nick_name=?, update_time=?, is_deleted=? WHERE id = ? 
+17:52:48.416 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.modules.dao.UserDao.update - ==> Parameters: https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83erzAQctR8x8ZEyfT7yCTwbpcdheuwsR2oMNdhC7iapicJUEV8kZcf2dwKodhl1l0cPJqMV0xN1w6CEA/132(String), o5LWV5NMCEL7X_5ovPr95b6eccpE(String), 陈汤姆(String), 2020-07-08 01:41:01.0(Timestamp), 0(Integer), 2(Long)
+17:52:48.418 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.modules.dao.UserDao.update - <==    Updates: 1
+17:55:05.063 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==>  Preparing: select count(*) from user where wechat_id=? 
+17:55:05.065 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+17:55:05.066 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - <==      Total: 1
+17:55:05.066 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.dao.UserDao.getByOpenId - ==>  Preparing: select * from user where wechat_id=? 
+17:55:05.067 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.dao.UserDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+17:55:05.068 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.dao.UserDao.getByOpenId - <==      Total: 1
+17:55:05.070 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.modules.dao.UserDao.update - ==>  Preparing: UPDATE user SET wechat_id=?, update_time=?, is_deleted=? WHERE id = ? 
+17:55:05.071 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.modules.dao.UserDao.update - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String), 2020-07-08 01:41:01.0(Timestamp), 0(Integer), 2(Long)
+17:55:05.074 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.modules.dao.UserDao.update - <==    Updates: 1
+17:55:09.715 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==>  Preparing: select count(*) from user where wechat_id=? 
+17:55:09.716 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+17:55:09.717 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - <==      Total: 1
+17:55:09.717 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.dao.UserDao.getByOpenId - ==>  Preparing: select * from user where wechat_id=? 
+17:55:09.717 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.dao.UserDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+17:55:09.719 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.dao.UserDao.getByOpenId - <==      Total: 1
+17:55:09.721 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.modules.dao.UserDao.update - ==>  Preparing: UPDATE user SET head_img=?, wechat_id=?, nick_name=?, update_time=?, is_deleted=? WHERE id = ? 
+17:55:09.721 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.modules.dao.UserDao.update - ==> Parameters: https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83erzAQctR8x8ZEyfT7yCTwbpcdheuwsR2oMNdhC7iapicJUEV8kZcf2dwKodhl1l0cPJqMV0xN1w6CEA/132(String), o5LWV5NMCEL7X_5ovPr95b6eccpE(String), 陈汤姆(String), 2020-07-08 01:41:01.0(Timestamp), 0(Integer), 2(Long)
+17:55:09.724 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.modules.dao.UserDao.update - <==    Updates: 1
+17:55:50.184 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==>  Preparing: select count(*) from user where wechat_id=? 
+17:55:50.184 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+17:55:50.185 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - <==      Total: 1
+17:55:50.186 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.dao.UserDao.getByOpenId - ==>  Preparing: select * from user where wechat_id=? 
+17:55:50.186 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.dao.UserDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+17:55:50.187 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.m.dao.UserDao.getByOpenId - <==      Total: 1
+17:55:50.190 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.modules.dao.UserDao.update - ==>  Preparing: UPDATE user SET wechat_id=?, update_time=?, is_deleted=? WHERE id = ? 
+17:55:50.191 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.modules.dao.UserDao.update - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String), 2020-07-08 01:41:01.0(Timestamp), 0(Integer), 2(Long)
+17:55:50.193 logback-com.modules [http-nio-8001-exec-3] DEBUG c.m.b.modules.dao.UserDao.update - <==    Updates: 1
+18:01:54.782 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==>  Preparing: select count(*) from user where wechat_id=? 
+18:01:54.804 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+18:01:54.809 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - <==      Total: 1
+18:01:54.811 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.dao.UserDao.getByOpenId - ==>  Preparing: select * from user where wechat_id=? 
+18:01:54.811 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.dao.UserDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+18:01:54.820 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.m.dao.UserDao.getByOpenId - <==      Total: 1
+18:01:54.822 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.modules.dao.UserDao.update - ==>  Preparing: UPDATE user SET wechat_id=?, update_time=?, is_deleted=? WHERE id = ? 
+18:01:54.823 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.modules.dao.UserDao.update - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String), 2020-07-08 01:41:01.0(Timestamp), 0(Integer), 2(Long)
+18:01:54.829 logback-com.modules [http-nio-8001-exec-8] DEBUG c.m.b.modules.dao.UserDao.update - <==    Updates: 1
+18:02:10.751 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==>  Preparing: select count(*) from user where wechat_id=? 
+18:02:10.752 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+18:02:10.753 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - <==      Total: 1
+18:02:10.755 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.dao.UserDao.getByOpenId - ==>  Preparing: select * from user where wechat_id=? 
+18:02:10.756 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.dao.UserDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+18:02:10.757 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.dao.UserDao.getByOpenId - <==      Total: 1
+18:02:10.759 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.modules.dao.UserDao.update - ==>  Preparing: UPDATE user SET wechat_id=?, update_time=?, is_deleted=? WHERE id = ? 
+18:02:10.760 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.modules.dao.UserDao.update - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String), 2020-07-08 01:41:01.0(Timestamp), 0(Integer), 2(Long)
+18:02:10.763 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.modules.dao.UserDao.update - <==    Updates: 1
+18:02:16.421 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==>  Preparing: select count(*) from user where wechat_id=? 
+18:02:16.421 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+18:02:16.422 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - <==      Total: 1
+18:02:16.422 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.dao.UserDao.getByOpenId - ==>  Preparing: select * from user where wechat_id=? 
+18:02:16.423 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.dao.UserDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+18:02:16.424 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.dao.UserDao.getByOpenId - <==      Total: 1
+18:02:16.425 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.modules.dao.UserDao.update - ==>  Preparing: UPDATE user SET head_img=?, wechat_id=?, nick_name=?, update_time=?, is_deleted=? WHERE id = ? 
+18:02:16.425 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.modules.dao.UserDao.update - ==> Parameters: https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83erzAQctR8x8ZEyfT7yCTwbpcdheuwsR2oMNdhC7iapicJUEV8kZcf2dwKodhl1l0cPJqMV0xN1w6CEA/132(String), o5LWV5NMCEL7X_5ovPr95b6eccpE(String), 陈汤姆(String), 2020-07-08 01:41:01.0(Timestamp), 0(Integer), 2(Long)
+18:02:16.428 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.modules.dao.UserDao.update - <==    Updates: 1
+18:03:54.265 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==>  Preparing: select count(*) from user where wechat_id=? 
+18:03:54.266 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+18:03:54.268 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - <==      Total: 1
+18:03:54.269 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.dao.UserDao.getByOpenId - ==>  Preparing: select * from user where wechat_id=? 
+18:03:54.269 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.dao.UserDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+18:03:54.271 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.m.dao.UserDao.getByOpenId - <==      Total: 1
+18:03:54.275 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.modules.dao.UserDao.update - ==>  Preparing: UPDATE user SET wechat_id=?, update_time=?, is_deleted=? WHERE id = ? 
+18:03:54.276 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.modules.dao.UserDao.update - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String), 2020-07-08 01:41:01.0(Timestamp), 0(Integer), 2(Long)
+18:03:54.285 logback-com.modules [http-nio-8001-exec-10] DEBUG c.m.b.modules.dao.UserDao.update - <==    Updates: 1
+18:04:24.072 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==>  Preparing: select count(*) from user where wechat_id=? 
+18:04:24.073 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+18:04:24.077 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - <==      Total: 1
+18:04:24.080 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.dao.UserDao.getByOpenId - ==>  Preparing: select * from user where wechat_id=? 
+18:04:24.080 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.dao.UserDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+18:04:24.082 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.m.dao.UserDao.getByOpenId - <==      Total: 1
+18:04:24.085 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.modules.dao.UserDao.update - ==>  Preparing: UPDATE user SET wechat_id=?, update_time=?, is_deleted=? WHERE id = ? 
+18:04:24.086 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.modules.dao.UserDao.update - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String), 2020-07-08 01:41:01.0(Timestamp), 0(Integer), 2(Long)
+18:04:24.089 logback-com.modules [http-nio-8001-exec-1] DEBUG c.m.b.modules.dao.UserDao.update - <==    Updates: 1
+18:46:20.549 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==>  Preparing: select count(*) from user where wechat_id=? 
+18:46:20.564 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+18:46:20.585 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.dao.UserDao.getCountByOpenId - <==      Total: 1
+18:46:20.586 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.dao.UserDao.getByOpenId - ==>  Preparing: select * from user where wechat_id=? 
+18:46:20.586 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.dao.UserDao.getByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+18:46:20.589 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.m.dao.UserDao.getByOpenId - <==      Total: 1
+18:46:20.595 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.modules.dao.UserDao.update - ==>  Preparing: UPDATE user SET wechat_id=?, update_time=?, is_deleted=? WHERE id = ? 
+18:46:20.597 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.modules.dao.UserDao.update - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String), 2020-07-08 01:41:01.0(Timestamp), 0(Integer), 2(Long)
+18:46:20.604 logback-com.modules [http-nio-8001-exec-2] DEBUG c.m.b.modules.dao.UserDao.update - <==    Updates: 1

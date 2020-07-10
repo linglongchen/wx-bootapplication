@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tencent.modules.sys.dao.UserDao">
+    <resultMap id="BaseResultMap" type="com.modules.bootapplication.modules.entity.User" >
+                <result column="id" property="id" jdbcType="BIGINT" />
+                <result column="head_img" property="headImg" jdbcType="VARCHAR" />
+                <result column="wechat_id" property="wechatId" jdbcType="VARCHAR" />
+                <result column="phone" property="phone" jdbcType="VARCHAR" />
+                <result column="nick_name" property="nickName" jdbcType="VARCHAR" />
+                <result column="real_name" property="realName" jdbcType="VARCHAR" />
+                <result column="create_time" property="createTime" jdbcType="DATE" />
+                <result column="update_time" property="updateTime" jdbcType="DATE" />
+                <result column="create_user_id" property="createUserId" jdbcType="INTEGER" />
+                <result column="update_user_id" property="updateUserId" jdbcType="INTEGER" />
+                <result column="province" property="province" jdbcType="VARCHAR" />
+                <result column="city" property="city" jdbcType="VARCHAR" />
+                <result column="area" property="area" jdbcType="VARCHAR" />
+                <result column="address" property="address" jdbcType="VARCHAR" />
+    </resultMap>
+
+    <sql id="Base_Column_List">
+                id,
+                head_img,
+                wechat_id,
+                phone,
+                nick_name,
+                real_name,
+                create_time,
+                update_time,
+                create_user_id,
+                update_user_id,
+                del_flag,
+                province,
+                city,
+                area,
+                address
+    </sql>
+
+
+    <select id="next" resultMap="BaseResultMap">
+        SELECT <include refid="Base_Column_List" />
+        FROM user
+        WHERE is_deleted=0 and id &lt; #{id,jdbcType=BIGINT}
+        ORDER BY ID DESC
+        limit 1
+    </select>
+
+    <select id="prev" resultMap="BaseResultMap">
+        SELECT <include refid="Base_Column_List" />
+        FROM user
+        WHERE is_deleted=0 and id &gt; #{id,jdbcType=BIGINT}
+        ORDER BY ID ASC
+        limit 1
+    </select>
+</mapper>

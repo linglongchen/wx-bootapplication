@@ -7,7 +7,7 @@ import com.modules.bootapplication.common.oauth.Result;
 import com.modules.bootapplication.common.oauth.ResultStatusCode;
 import com.modules.bootapplication.common.utils.DateUtils;
 import com.modules.bootapplication.common.utils.PathUtil;
-import com.modules.bootapplication.common.web.BaseController;
+import com.modules.bootapplication.common.base.BaseController;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -33,8 +33,6 @@ import java.util.UUID;
 @RequestMapping("/api/upload")
 @Api(tags="上传图片接口")
 public class UploadController extends BaseController {
-
-
      /**
       * @description 上传图片
       * @param

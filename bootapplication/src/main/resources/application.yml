@@ -5,35 +5,24 @@ server:
 spring:
   datasource:
     name: druidDataSource
-    url: jdbc:mysql://localhost:3306/gift?allowMultiQueries=true&characterEncoding=utf-8&autoReconnect=true&useSSL=false
+    url: jdbc:mysql://localhost:3306/questionnaire?allowMultiQueries=true&characterEncoding=utf-8&autoReconnect=true&useSSL=false&serverTimezone=UTC
     username: root
     password: 123456
-    # ʹ��druid����Դ
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver
-    #��ʼ��������С����С�����
     initialSize: 5
-    #��С��Ծ��
     minIdle: 5
-    #����Ծ��
     maxActive: 20
-    # ���û�ȡ���ӵȴ���ʱ��ʱ��
     maxWait: 6000
-    # ���ü����òŽ���һ�μ�⣬�����Ҫ�رյĿ������ӣ���λ�Ǻ���
     timeBetweenEvictionRunsMillis: 60000
-    # ����һ�������ڳ�����С�����ʱ�䣬��λ�Ǻ���
     minEvictableIdleTimeMillis: 300000
-    # У��SQL��Oracle���� spring.datasource.validationQuery=SELECT 1 FROM DUAL���������validationQuery�������������������
     validationQuery: select 'x'
     testWhileIdle: true
     testOnBorrow: false
     testOnReturn: false
-    # ��PSCache������ָ��ÿ��������PSCache�Ĵ�С
     poolPreparedStatements: true
     maxPoolPreparedStatementPerConnectionSize : 20
-    # ���ü��ͳ�����ص�filters��ȥ�����ؽ���sql�޷�ͳ�ƣ�'wall'���ڷ���ǽ
     filters: stat, wall
-    #ͨ��connectionProperties��������mergeSql���ܣ���SQL��¼
     connectionProperties : druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
   redis:
     host: 127.0.0.1
@@ -53,5 +42,28 @@ audience:
   name: restapiuser
   expiresSecond: 120
 
+#mybatis
+mybatis-plus:
+  mapper-locations: classpath*:/mapper/*.xml
+  #实体扫描，多个package用逗号或者分号分隔
+  typeAliasesPackage: com.modules.bootapplication.modules.entity
+  global-config:
+    #数据库相关配置
+    db-config:
+      #主键类型  AUTO:"数据库ID自增", INPUT:"用户输入ID", ID_WORKER:"全局唯一ID (数字类型唯一ID)", UUID:"全局唯一ID UUID";
+      id-type: AUTO
+      #字段策略 IGNORED:"忽略判断",NOT_NULL:"非 NULL 判断"),NOT_EMPTY:"非空判断"
+      field-strategy: NOT_NULL
+      #驼峰下划线转换
+      column-underline: true
+      logic-delete-value: -1
+      logic-not-delete-value: 1
+    banner: false
+  #原生配置
+  configuration:
+    map-underscore-to-camel-case: true
+    cache-enabled: false
+    call-setters-on-nulls: true
+    jdbc-type-for-null: 'null'
 
 adminPath: /admin/

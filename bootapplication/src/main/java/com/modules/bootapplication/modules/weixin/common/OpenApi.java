@@ -13,6 +13,9 @@ import org.weixin4j.util.TokenUtil;
 import java.io.IOException;
 import java.util.HashMap;
 
+/**
+ * @author v_vllchen
+ */
 public abstract class OpenApi {
 
     /**
@@ -34,24 +37,6 @@ public abstract class OpenApi {
     public static String tradeType = "";	                        //微信支付交易类型
     public static String key = "";     //微信商户端密匙
 
-    /**
-     * @Description: 调用api并返回查询结果
-     * @param：api的http请求包体的model，或者为json格式的请求字符串
-     * @return
-     * @throws IOException
-     * @author: wcf
-     * @throws WeixinException
-     * @date: 2017年7月21日
-     */
-    public String QueryData(JSONObject json) throws WeixinException, IOException
-    {
-        String sRes = "";
-        String sUrl = "";
-        HashMap<String, String> dicArg = new HashMap<String,String>();
-        sUrl = GetRequestUrl(dicArg);
-        sRes = PostData(sUrl, json);
-        return sRes;
-    }
 
     protected  void Init(HashMap<String, String> dicArg){
         dicArg.put("access_token", TokenUtil.get());

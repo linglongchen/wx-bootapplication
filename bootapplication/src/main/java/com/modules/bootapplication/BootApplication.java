@@ -6,9 +6,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
+/**
+ * @author v_vllchen
+ */
 @SpringBootApplication
-@MapperScan(basePackages = "com.modules.bootapplication.modules.*.dao")
 @EnableSwagger2
+@MapperScan("com.modules.bootapplication.modules.dao")
 public class BootApplication {
 
     public static void main(String[] args) {
