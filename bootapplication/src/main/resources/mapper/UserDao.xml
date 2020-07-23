@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.tencent.modules.sys.dao.UserDao">
-    <resultMap id="BaseResultMap" type="com.modules.bootapplication.modules.entity.User" >
+<mapper namespace="com.modules.system.dao.UserDao">
+    <resultMap id="BaseResultMap" type="com.modules.system.entity.User" >
                 <result column="id" property="id" jdbcType="BIGINT" />
                 <result column="head_img" property="headImg" jdbcType="VARCHAR" />
                 <result column="wechat_id" property="wechatId" jdbcType="VARCHAR" />

@@ -171,5 +171,5 @@
     <!-- FrameworkServlet日志-->
     <logger name="org.springframework" level="WARN" />
     <!-- 打印sql语句 -->
-    <logger name="com.modules.bootapplication.modules" level="DEBUG"/>
+    <logger name="com.modules.system" level="DEBUG"/>
 </configuration>

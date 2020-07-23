@@ -1,0 +1,58 @@
+16:33:18.495 logback-com.modules [main] INFO  c.m.bootapplication.BootApplication - Starting BootApplication on v_vllchen-PC0 with PID 28788 (E:\ideaProject\wx-bootapplication\bootapplication\target\classes started by v_vllchen in E:\ideaProject\wx-bootapplication\bootapplication)
+16:33:18.516 logback-com.modules [main] INFO  c.m.bootapplication.BootApplication - No active profile set, falling back to default profiles: default
+16:33:22.830 logback-com.modules [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+16:33:22.831 logback-com.modules [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:33:22.831 logback-com.modules [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+16:33:23.024 logback-com.modules [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:33:25.045 logback-com.modules [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+16:33:26.174 logback-com.modules [cluster-ClusterId{value='5f194b55b5ae1426d0a66053', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:1}] to localhost:27017
+16:33:26.178 logback-com.modules [cluster-ClusterId{value='5f194b55b5ae1426d0a66053', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 2, 21]}, minWireVersion=0, maxWireVersion=4, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=1212100}
+16:33:27.346 logback-com.modules [main] INFO  c.m.b.common.utils.PropertiesLoader - Could not load properties from path:jeesite.properties, class path resource [jeesite.properties] cannot be opened because it does not exist
+16:33:48.923 logback-com.modules [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+16:33:51.261 logback-com.modules [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+16:33:51.500 logback-com.modules [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+16:33:51.503 logback-com.modules [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+16:33:51.504 logback-com.modules [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+16:33:51.508 logback-com.modules [main] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+16:33:52.108 logback-com.modules [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+16:33:52.230 logback-com.modules [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+16:40:56.942 logback-com.modules [main] INFO  com.modules.BootApplication - Starting BootApplication on v_vllchen-PC0 with PID 33416 (E:\ideaProject\wx-bootapplication\bootapplication\target\classes started by v_vllchen in E:\ideaProject\wx-bootapplication\bootapplication)
+16:40:56.953 logback-com.modules [main] INFO  com.modules.BootApplication - No active profile set, falling back to default profiles: default
+16:41:01.017 logback-com.modules [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+16:41:01.018 logback-com.modules [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:41:01.018 logback-com.modules [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+16:41:01.169 logback-com.modules [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:41:01.865 logback-com.modules [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+16:41:02.015 logback-com.modules [cluster-ClusterId{value='5f194d1dce86516b6272e1e1', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:2}] to localhost:27017
+16:41:02.018 logback-com.modules [cluster-ClusterId{value='5f194d1dce86516b6272e1e1', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 2, 21]}, minWireVersion=0, maxWireVersion=4, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=1128500}
+16:41:02.727 logback-com.modules [main] INFO  c.m.common.utils.PropertiesLoader - Could not load properties from path:jeesite.properties, class path resource [jeesite.properties] cannot be opened because it does not exist
+16:41:24.052 logback-com.modules [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+16:41:24.844 logback-com.modules [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+16:41:25.002 logback-com.modules [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+16:41:25.003 logback-com.modules [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+16:41:25.004 logback-com.modules [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+16:41:25.006 logback-com.modules [main] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+16:41:25.443 logback-com.modules [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+16:41:25.479 logback-com.modules [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+16:43:09.406 logback-com.modules [main] INFO  com.modules.BootApplication - Starting BootApplication on v_vllchen-PC0 with PID 3200 (E:\ideaProject\wx-bootapplication\bootapplication\target\classes started by v_vllchen in E:\ideaProject\wx-bootapplication\bootapplication)
+16:43:09.421 logback-com.modules [main] INFO  com.modules.BootApplication - No active profile set, falling back to default profiles: default
+16:43:12.579 logback-com.modules [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+16:43:12.582 logback-com.modules [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:43:12.582 logback-com.modules [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+16:43:12.794 logback-com.modules [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:43:13.379 logback-com.modules [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+16:43:13.459 logback-com.modules [cluster-ClusterId{value='5f194da152590177543d6379', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:3}] to localhost:27017
+16:43:13.462 logback-com.modules [cluster-ClusterId{value='5f194da152590177543d6379', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 2, 21]}, minWireVersion=0, maxWireVersion=4, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=996800}
+16:43:14.197 logback-com.modules [main] INFO  c.m.common.utils.PropertiesLoader - Could not load properties from path:jeesite.properties, class path resource [jeesite.properties] cannot be opened because it does not exist
+16:43:35.748 logback-com.modules [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+16:43:36.975 logback-com.modules [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+16:43:37.186 logback-com.modules [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+16:43:37.188 logback-com.modules [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+16:43:37.189 logback-com.modules [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+16:43:37.192 logback-com.modules [main] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+16:43:37.860 logback-com.modules [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+16:43:37.899 logback-com.modules [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+16:43:37.970 logback-com.modules [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+16:43:38.405 logback-com.modules [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+16:43:38.579 logback-com.modules [main] INFO  com.modules.BootApplication - Started BootApplication in 30.588 seconds (JVM running for 32.398)
+16:44:48.464 logback-com.modules [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
