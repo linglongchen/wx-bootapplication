@@ -15,7 +15,7 @@ public class CodeGenerateUtils {
 
 	private final String AUTHOR = "chenTom";
 	private final String packageName = "com.modules.system";
-	private final String URL = "jdbc:mysql://127.0.0.1:3306/questionnaire?useUnicode=true&characterEncoding=UTF8&serverTimezone=Asia/Shanghai";
+	private final String URL = "jdbc:mysql://127.0.0.1:3306/?useUnicode=true&characterEncoding=UTF8&serverTimezone=Asia/Shanghai";
 	private final String USER = "root";
 	private final String PASSWORD = "123456";
 	private final String DRIVER = "com.mysql.jdbc.Driver";
@@ -51,10 +51,6 @@ public class CodeGenerateUtils {
 		columnClassList = this.getColumnClassList(resultSet);
 		// 生成Model文件
 		this.generateModelFile(tablename);
-		//生成excel导入的模板
-		this.generateDataModelFile(tablename);
-		//生成excel导入的listenner模板代码
-		this.generateDataListenerFile(tablename);
 		// 生成Form文件
 		this.generateFormFile(tablename);
 		// 生成Vo文件

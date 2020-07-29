@@ -1,7 +1,6 @@
 package com.modules.system.utils.wxpay;
 
 
-import com.modules.common.config.Global;
 
 /**
  * @Description: 微信支付相关配置
@@ -9,6 +8,7 @@ import com.modules.common.config.Global;
  * @Author: wcf
  */
 public class WxpayConfig {
+    private static final String rootPath = "";
     /**
      * 微信开放平台提供appid
      */
@@ -32,11 +32,11 @@ public class WxpayConfig {
     /**
      * 异步通知地址
      */
-    public final static String notifyUrl = Global.getConfig("service.url") + "/gift-api/api/order/wxpayNotify";
+    public final static String notifyUrl = rootPath+"/api/order/wxpayNotify";
     /**
      * 异步通知地址拼团
      */
-    public final static String notifyUrlGroup = Global.getConfig("service.url") + "/gift-api/api/order/wxpayNotifyByGroup";
+    public final static String notifyUrlGroup =   rootPath+ "/api/order/wxpayNotifyByGroup";
 
 
     public final static String payUrl = "https://api.mch.weixin.qq.com/pay/unifiedorder";

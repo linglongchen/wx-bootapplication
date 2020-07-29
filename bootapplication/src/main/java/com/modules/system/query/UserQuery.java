@@ -1,4 +1,4 @@
-package com.modules.system.vo;
+package com.modules.system.query;
 import lombok.Data;
 
 /**

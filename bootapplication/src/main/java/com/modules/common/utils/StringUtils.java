@@ -4,15 +4,10 @@
 package com.modules.common.utils;
 
 import com.google.common.collect.Lists;
-import com.google.common.collect.Maps;
-import com.modules.common.config.Global;
 import org.apache.commons.lang3.StringEscapeUtils;
 import org.jdom.Document;
 import org.jdom.Element;
 import org.jdom.input.SAXBuilder;
-import org.springframework.web.context.request.RequestContextHolder;
-import org.springframework.web.context.request.ServletRequestAttributes;
-import org.springframework.web.servlet.LocaleResolver;
 import org.xml.sax.InputSource;
 
 import javax.servlet.http.HttpServletRequest;
@@ -117,47 +112,6 @@ public class StringUtils extends  org.apache.commons.lang3.StringUtils {
 		return replace(replace(Encodes.escapeHtml(txt), "\n", "<br/>"), "\t", "&nbsp; &nbsp; ");
 	}
 
-	/**
-	 * 处理富文本字段中图片宽度的问题
-	 * @param s
-	 * @return
-	 */
-	public static String replacePhoneWidth(String s) {
-		Map<String, String> map = Maps.newHashMap();
-		Pattern p = Pattern.compile("<(?i)img[^>]+src\\s*=\\s*['\"]([^'\"]+)['\"][^>]*>");
-		Matcher m = p.matcher(s);
-		while (m.find()) {
-			String orgin = m.group().toLowerCase();
-			String newStr = "";
-			String temp = orgin;
-			//处理不带域名的图片链接
-			if (!orgin.contains("http") && !orgin.contains("https")) {
-				//src="http://www.1p1g.com
-				temp = orgin.replaceAll("src\\s?=\\s?'", "src='" + Global.getConfig("service.url"));
-				temp = orgin.replaceAll("src\\s?=\\s?\"", "src=\"" + Global.getConfig("service.url"));
-			}
-			//处理宽度 100%
-			if (temp.contains("style")) {
-				if (temp.contains("width")) {
-					newStr = temp.replaceAll("width\\s*:\\s*(\\d+)\\s*(px|%)", "width: 100%");
-				} else {
-					newStr = temp.replaceAll("style\\s*=\\s*'", "style='width: 100%;");
-				}
-				if(newStr.contains("height")) {
-					newStr = newStr.replaceAll("height\\s*:\\s*(\\d+)\\s*(px|%);", "");
-				}
-			} else {
-				newStr = temp.replaceAll("<img", "<img style='width:100%'");
-			}
-			if (!orgin.equals(newStr)) {
-				map.put(orgin, newStr);
-			}
-		}
-		for (Map.Entry me : map.entrySet()) {
-			s = s.replaceAll("(?i)"+String.valueOf(me.getKey()), String.valueOf(me.getValue()));
-		}
-		return s;
-	}
 
 	/**
 	 * 缩略字符串（不区分中英文字符）
@@ -286,15 +240,7 @@ public class StringUtils extends  org.apache.commons.lang3.StringUtils {
 		return toLong(val).intValue();
 	}
 
-	/**
-	 * 获得i18n字符串
-	 */
-	public static String getMessage(String code, Object[] args) {
-		LocaleResolver localLocaleResolver = (LocaleResolver) SpringContextHolder.getBean(LocaleResolver.class);
-		HttpServletRequest request = ((ServletRequestAttributes) RequestContextHolder.getRequestAttributes()).getRequest();
-		Locale localLocale = localLocaleResolver.resolveLocale(request);
-		return SpringContextHolder.getApplicationContext().getMessage(code, args, localLocale);
-	}
+
 
 	/**
 	 * 获得用户远程地址

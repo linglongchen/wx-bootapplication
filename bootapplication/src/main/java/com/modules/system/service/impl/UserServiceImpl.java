@@ -7,7 +7,7 @@ import com.modules.common.generator.utils.PageInfo;
 import com.modules.system.dao.UserDao;
 import com.modules.system.entity.User;
 import com.modules.system.service.UserService;
-import com.modules.system.vo.UserQuery;
+import com.modules.system.query.UserQuery;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
@@ -22,6 +22,7 @@ import java.util.List;
 */
 @Service
 public class UserServiceImpl implements UserService {
+
 
     protected final Logger logger = LoggerFactory.getLogger(this.getClass());
 
@@ -96,12 +97,12 @@ public class UserServiceImpl implements UserService {
 
 	/**
 	 * 查询该openid是否存在
-	 * @param userInfo
+	 * @param user
 	 * @return
 	 */
 	@Override
-	public int getCountByOpenId(User userInfo){
-		return userDao.getCountByOpenId(userInfo);
+	public User getCountByOpenId(String openId){
+		return userDao.getCountByOpenId(openId);
 	}
 
 	/**
@@ -113,4 +114,5 @@ public class UserServiceImpl implements UserService {
 	public User getByOpenId(User userInfo){
 		return userDao.getByOpenId(userInfo);
 	}
+
 }

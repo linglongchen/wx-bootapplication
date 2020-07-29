@@ -1,7 +1,7 @@
 package com.modules.system.service;
 import com.modules.system.entity.User;
 import com.modules.common.generator.utils.PageInfo;
-import com.modules.system.vo.UserQuery;
+import com.modules.system.query.UserQuery;
 
 import java.util.List;
 /**
@@ -88,10 +88,10 @@ public interface UserService {
 
     /**
      * 查询该openid是否存在
-     * @param userInfo
+     * @param openId
      * @return
      */
-    public int getCountByOpenId(User userInfo);
+    public User getCountByOpenId(String openId);
 
     /**
      * 根据openid获取用户信息
@@ -99,5 +99,7 @@ public interface UserService {
      * @return
      */
     public User getByOpenId(User userInfo);
+
+
 
 }

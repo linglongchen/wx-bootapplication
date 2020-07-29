@@ -51,9 +51,9 @@ public interface UserDao extends MyMapper<User> {
      * 查询该openid是否存在
      * @return
      */
-    @Select("select count(*) from user where wechat_id=#{wechatId}")
+    @Select("select * from user where wechat_id=#{wechatId}")
     @ResultType(Integer.class)
-    int getCountByOpenId(User userInfo);
+    User getCountByOpenId(String  openId);
 
 
     @Select("select * from user where wechat_id=#{wechatId}")

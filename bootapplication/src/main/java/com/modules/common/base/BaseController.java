@@ -26,13 +26,6 @@ public abstract class BaseController {
 
 
 	/**
-	 * 管理基础路径
-	 */
-	@Value("${adminPath}")
-	protected String adminPath;
-
-
-	/**
 	 * 获取用户id
 	 * @param request
 	 * @return

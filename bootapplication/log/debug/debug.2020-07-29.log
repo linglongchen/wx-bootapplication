@@ -1,0 +1,3 @@
+15:36:48.152 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.s.dao.UserDao.getCountByOpenId - ==>  Preparing: select * from user where wechat_id=? 
+15:36:48.201 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.s.dao.UserDao.getCountByOpenId - ==> Parameters: o5LWV5NMCEL7X_5ovPr95b6eccpE(String)
+15:36:48.230 logback-com.modules [http-nio-8001-exec-9] DEBUG c.m.s.dao.UserDao.getCountByOpenId - <==      Total: 1

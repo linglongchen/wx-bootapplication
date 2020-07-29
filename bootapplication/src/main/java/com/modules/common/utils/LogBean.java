@@ -6,7 +6,7 @@ import org.springframework.format.annotation.DateTimeFormat;
 
 import java.util.Date;
 
-@Document(collation = "weChat_log")
+@Document(collection = "weChat_log")
 @Data
 public class LogBean {
     private String id;

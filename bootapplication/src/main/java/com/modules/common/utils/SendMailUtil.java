@@ -15,7 +15,6 @@ import java.util.regex.Pattern;
  */
 public class SendMailUtil {
 
-	// private static final String smtphost = "192.168.1.70";
 	private static final String from = "thinkgem@163.com";
 	private static final String fromName = "测试公司";
 	private static final String charSet = "utf-8";
@@ -81,37 +80,6 @@ public class SendMailUtil {
 	}
 
 
-//	/**
-//	 * 发送普通邮件
-//	 *
-//	 * @param toMailAddr
-//	 *            收信人地址
-//	 * @param subject
-//	 *            email主题
-//	 * @param message
-//	 *            发送email信息
-//	 */
-//	public static void sendCommonMail(String toMailAddr, String subject,
-//			String message) {
-//		HtmlEmail hemail = new HtmlEmail();
-//		try {
-//			hemail.setHostName(getHost(from));
-//			hemail.setSmtpPort(getSmtpPort(from));
-//			hemail.setCharset(charSet);
-//			hemail.addTo(toMailAddr);
-//			hemail.setFrom(from, fromName);
-//			hemail.setAuthentication(username, password);
-//			hemail.setSubject(subject);
-//			hemail.setMsg(message);
-//			hemail.send();
-//			System.out.println("email send true!");
-//		} catch (Exception e) {
-//			e.printStackTrace();
-//			System.out.println("email send error!");
-//		}
-//
-//	}
-
 
 	private static String getFilePath() {
 		String path = getAppPath(SendMailUtil.class);
@@ -127,7 +95,6 @@ public class SendMailUtil {
 		return path.substring(path.lastIndexOf("/") + 1);
 	}
 
-//	@SuppressWarnings("unchecked")
 	public static String getAppPath(Class<?> cls) {
 		// 检查用户传入的参数是否为空
 		if (cls == null)

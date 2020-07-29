@@ -5,6 +5,7 @@ import com.alibaba.fastjson.JSONObject;
 import com.alibaba.fastjson.TypeReference;
 import com.fasterxml.jackson.core.JsonParseException;
 import com.modules.common.oauth.AccessToken;
+import com.modules.system.weixin.utils.WeChatUtil;
 import org.weixin4j.WeixinException;
 import org.weixin4j.http.HttpsClient;
 import org.weixin4j.http.Response;
@@ -27,6 +28,7 @@ public abstract class OpenApi {
      * 接口请求地址
      */
     public String HostUrl = "https://api.weixin.qq.com/card/";
+    public static final String url = "https://api.weixin.qq.com/sns/jscode2session";
 
     public static AccessToken token;
 
@@ -46,13 +48,12 @@ public abstract class OpenApi {
      * @author: wcf
      * @date: 2017年7月21日
      */
-    public String QueryData(JSONObject json) throws WeixinException, IOException {
-        String sRes = "";
-        String sUrl = "";
-        HashMap<String, String> dicArg = new HashMap<String, String>();
-        sUrl = GetRequestUrl(dicArg);
-        sRes = PostData(sUrl, json);
-        return sRes;
+    public static String getWeixinData(String jsCode) {
+        String httpUrl = url + "?appid=" + OpenApi.appId + "&secret=" + OpenApi.secret + "&js_code=" + jsCode
+                + "&grant_type=" + OpenApi.grantType;
+        // 发送请求，返回Json字符串
+        String str = WeChatUtil.httpRequest(httpUrl, "GET", null);
+        return str;
     }
 
     protected void Init(HashMap<String, String> dicArg) {
@@ -113,7 +114,6 @@ public abstract class OpenApi {
             //调用获取access_token接口
             Response res = http.get("https://api.weixin.qq.com/cgi-bin/token" + param);
             System.out.println(res.asString());
-
             token = JSON.parseObject(res.asString(), new TypeReference<AccessToken>() {
             });
         }

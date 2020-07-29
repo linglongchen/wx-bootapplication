@@ -41,10 +41,6 @@ public class LogAspect {
         logBean.setMethod(method);
         //获取请求参数
         String reqparam = "";
-//        Object[] args = joinpoint.getArgs();
-//        for (Object object : args) {
-//            reqparam += "||" + object.toString();
-//        }
         logBean.setReqParam(reqparam);
         //返回值
         if (rtv != null) {

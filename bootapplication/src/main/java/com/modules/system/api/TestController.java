@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import javax.annotation.Resource;
+
 @RestController
 @RequestMapping("api/test")
 @Api(tags = "测试api")
@@ -21,5 +23,7 @@ public class TestController {
     public Result getInfo() {
         return new Result(ResultStatusCode.OK);
     }
+
+
 
 }

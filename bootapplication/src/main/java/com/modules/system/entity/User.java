@@ -3,7 +3,6 @@ package com.modules.system.entity;
 import com.baomidou.mybatisplus.annotation.TableName;
 import com.modules.common.base.BaseEntity;
 import lombok.Data;
-
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
