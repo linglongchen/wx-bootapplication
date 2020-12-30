@@ -8,7 +8,7 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * redis云存储工具类
- * @author chunqiu
+ * @author
  *
  */
 @Component
@@ -30,8 +30,6 @@ public class RedisUtils {
 	 * @param key
 	 * @param value
 	 * @param timeout：单位：毫秒
-	 * @author: wcf
-	 * @date: 2017年7月6日
 	 */
 	public void setValue(String key, String value, long timeout ){
 		redisTemplate.opsForValue().set(key, value, timeout , TimeUnit.MILLISECONDS);
@@ -42,8 +40,6 @@ public class RedisUtils {
 	 * @param userId
 	 * @param value
 	 * @param timeout
-	 * @author: wcf
-	 * @date: 2017年7月6日
 	 */
 	public void setToken(Long userId, String value, long timeout){
 		setValue(ACCESS_TOKEN + userId, value, timeout);
@@ -52,8 +48,6 @@ public class RedisUtils {
 	 * @Description: 设置refresh_token缓存，缓存时间固定为7天
 	 * @param userId
 	 * @param value
-	 * @author: wcf
-	 * @date: 2017年7月6日
 	 */
 	public void setRefreshToken(Long userId, String value){
 		setValue(REFRESH_TOKEN + userId, value, 1296000000L);
@@ -62,8 +56,6 @@ public class RedisUtils {
 	 * @Description: 获取缓存，通过key获取value值
 	 * @param key
 	 * @return
-	 * @author: wcf
-	 * @date: 2017年7月6日
 	 */
 	public String getValue(String key){
 		return redisTemplate.opsForValue().get(key);
@@ -72,8 +64,6 @@ public class RedisUtils {
 	 * @Description: 获取redis中的access_token信息
 	 * @param userId
 	 * @return
-	 * @author: wcf
-	 * @date: 2017年7月6日
 	 */
 	public String getToken(Long userId){
 		return getValue(ACCESS_TOKEN + userId);
@@ -82,8 +72,6 @@ public class RedisUtils {
 	 * @Description: 获取redis中的refresh_token信息
 	 * @param userId
 	 * @return
-	 * @author: wcf
-	 * @date: 2017年7月6日
 	 */
 	public String getRefreshToken(Long userId){
 		return getValue(REFRESH_TOKEN + userId);
@@ -91,8 +79,6 @@ public class RedisUtils {
 	/**
 	 * @Description: 删除缓存
 	 * @param key
-	 * @author: wcf
-	 * @date: 2017年7月6日
 	 */
 	public void delete(String key){
 		redisTemplate.delete(key);

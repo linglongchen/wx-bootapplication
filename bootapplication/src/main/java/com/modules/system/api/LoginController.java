@@ -7,7 +7,6 @@ import com.modules.common.oauth.Result;
 import com.modules.common.oauth.ResultStatusCode;
 import com.modules.common.oauth.JwtHelper;
 import com.modules.common.utils.RedisUtils;
-import com.modules.common.utils.StringUtils;
 import com.modules.common.base.BaseController;
 import com.modules.system.entity.User;
 import com.modules.system.entity.Account;
@@ -18,6 +17,7 @@ import com.modules.system.weixin.utils.WeChatUtil;
 import io.jsonwebtoken.Claims;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
+import org.apache.commons.lang.StringUtils;
 import org.bouncycastle.jce.provider.BouncyCastleProvider;
 import org.springframework.web.bind.annotation.*;
 import org.weixin4j.WeixinException;
@@ -49,8 +49,6 @@ public class LoginController extends BaseController {
     /**
      * @return
      * @Description:登陆/注册
-     * @author: df
-     * @date: 2018年9月5日
      */
     @PostMapping(value = "login")
     @ApiOperation("登陆/注册")
@@ -113,8 +111,6 @@ public class LoginController extends BaseController {
      * @param
      * @return
      * @Description: 用户退出登陆
-     * @author: wcf
-     * @date: 2017年7月6日
      */
     @PostMapping(value = "logout")
     @ApiOperation("用户退出登陆")
@@ -127,8 +123,6 @@ public class LoginController extends BaseController {
     /**
      * @return
      * @Description: 用于检测token是否还有效，如果无效则可以通过getToken方法获取新的token
-     * @author: wcf
-     * @date: 2017年7月7日
      */
     @PostMapping(value = "checkToken")
     @ApiOperation("用于检测token是否还有效，如果无效则可以通过getToken方法获取新的token")
@@ -140,8 +134,6 @@ public class LoginController extends BaseController {
     /**
      * @return
      * @Description: 通过refreshToken获取新的access_token，同时也刷新refreshToken的有效期
-     * @author: wcf
-     * @date: 2017年7月7日
      */
     @PostMapping(value = "getToken")
     @ApiOperation("通过refreshToken获取新的access_token，同时也刷新refreshToken的有效期")

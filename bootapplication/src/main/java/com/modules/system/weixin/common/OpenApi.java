@@ -45,8 +45,6 @@ public abstract class OpenApi {
      * @throws WeixinException
      * @Description: 调用api并返回查询结果
      * @param：api的http请求包体的model，或者为json格式的请求字符串
-     * @author: wcf
-     * @date: 2017年7月21日
      */
     public static String getWeixinData(String jsCode) {
         String httpUrl = url + "?appid=" + OpenApi.appId + "&secret=" + OpenApi.secret + "&js_code=" + jsCode

@@ -1,0 +1,54 @@
+10:21:30.463 logback-com.modules [main] INFO  com.modules.BootApplication - Starting BootApplication on v_vllchen-PC1 with PID 20516 (D:\ideaProject\wx-bootapplication\bootapplication\target\classes started by v_vllchen in D:\ideaProject\wx-bootapplication\bootapplication)
+10:21:30.466 logback-com.modules [main] INFO  com.modules.BootApplication - No active profile set, falling back to default profiles: default
+10:21:33.356 logback-com.modules [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+10:21:33.357 logback-com.modules [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+10:21:33.358 logback-com.modules [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+10:21:33.529 logback-com.modules [main] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8001"]
+10:21:33.530 logback-com.modules [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+10:21:33.532 logback-com.modules [main] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8001"]
+10:23:15.612 logback-com.modules [main] INFO  com.modules.BootApplication - Starting BootApplication on v_vllchen-PC1 with PID 26488 (D:\ideaProject\wx-bootapplication\bootapplication\target\classes started by v_vllchen in D:\ideaProject\wx-bootapplication\bootapplication)
+10:23:15.621 logback-com.modules [main] INFO  com.modules.BootApplication - No active profile set, falling back to default profiles: default
+10:23:18.380 logback-com.modules [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+10:23:18.381 logback-com.modules [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+10:23:18.381 logback-com.modules [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+10:23:18.514 logback-com.modules [main] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8001"]
+10:23:18.515 logback-com.modules [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+10:23:18.516 logback-com.modules [main] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8001"]
+10:24:24.870 logback-com.modules [main] INFO  com.modules.BootApplication - Starting BootApplication on v_vllchen-PC1 with PID 10908 (D:\ideaProject\wx-bootapplication\bootapplication\target\classes started by v_vllchen in D:\ideaProject\wx-bootapplication\bootapplication)
+10:24:24.878 logback-com.modules [main] INFO  com.modules.BootApplication - No active profile set, falling back to default profiles: default
+10:24:26.090 logback-com.modules [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+10:24:26.090 logback-com.modules [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+10:24:26.090 logback-com.modules [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+10:24:26.210 logback-com.modules [main] INFO  o.a.c.c.C.[.[localhost].[/api] - Initializing Spring embedded WebApplicationContext
+10:24:26.558 logback-com.modules [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+10:24:27.681 logback-com.modules [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+10:24:28.596 logback-com.modules [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+10:24:28.665 logback-com.modules [cluster-ClusterId{value='5febe4daf48a6a64a74d3d3e', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:127)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:63)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 3 common frames omitted
+10:24:28.747 logback-com.modules [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+10:24:28.748 logback-com.modules [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+10:24:28.748 logback-com.modules [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+10:24:28.750 logback-com.modules [main] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+10:24:29.186 logback-com.modules [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+10:24:29.217 logback-com.modules [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+10:24:29.245 logback-com.modules [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+10:24:29.308 logback-com.modules [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+10:24:29.471 logback-com.modules [main] INFO  com.modules.BootApplication - Started BootApplication in 5.015 seconds (JVM running for 5.925)
+10:24:40.881 logback-com.modules [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

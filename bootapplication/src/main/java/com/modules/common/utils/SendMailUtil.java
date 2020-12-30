@@ -15,10 +15,10 @@ import java.util.regex.Pattern;
  */
 public class SendMailUtil {
 
-	private static final String from = "thinkgem@163.com";
+	private static final String from = "xxxx@163.com";
 	private static final String fromName = "测试公司";
 	private static final String charSet = "utf-8";
-	private static final String username = "thinkgem@163.com";
+	private static final String username = "xxxx@163.com";
 	private static final String password = "123456";
 
 	private static Map<String, String> hostMap = new HashMap<String, String>();

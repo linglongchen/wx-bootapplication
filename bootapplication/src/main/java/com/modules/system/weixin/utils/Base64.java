@@ -1,11 +1,10 @@
 package com.modules.system.weixin.utils;
 
-import com.modules.common.utils.StringUtils;
+import org.apache.commons.lang.StringUtils;
 import sun.misc.BASE64Decoder;
 
 import java.io.UnsupportedEncodingException;
 
-@SuppressWarnings("restriction")
 public class Base64 {
     public static String encode(String s) {
         if (StringUtils.isEmpty(s)) {

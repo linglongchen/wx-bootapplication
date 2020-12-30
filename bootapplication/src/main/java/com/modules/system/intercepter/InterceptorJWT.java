@@ -4,9 +4,9 @@ import com.modules.common.annotation.IgnoreSecurity;
 import com.modules.common.oauth.Audience;
 import com.modules.common.oauth.JwtHelper;
 import com.modules.common.utils.RedisUtils;
-import com.modules.common.utils.StringUtils;
 import com.modules.system.exception.TokenErrorException;
 import io.jsonwebtoken.Claims;
+import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.web.method.HandlerMethod;
@@ -40,7 +40,8 @@ public class InterceptorJWT extends HandlerInterceptorAdapter {
                 return true;
             }
         }
-        String accessToken = StringUtils.isNotEmpty(request.getParameter("token")) ? request.getParameter("token") : request.getHeader("token");
+        String accessToken = StringUtils.isNotEmpty(request.getParameter("token")) ?
+                request.getParameter("token") : request.getHeader("token");
         if (StringUtils.isNotEmpty(accessToken)) {
             String HeadStr = accessToken.substring(0, 6).toLowerCase();
             if (HeadStr.equals("bearer")) {
